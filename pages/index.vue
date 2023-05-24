@@ -11,7 +11,7 @@
         </div>
         <div class="col-md-3">
           <div class="text-img">
-            <img src="../assets/images/banner.png" alt="Banner Image">
+            <img src="assets/images/banner.png" alt="Banner Image">
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
       <div class="row">
         <div class="col-md-6">
           <div>
-            <img src="../assets/images/virtual_photo.jpg" alt="Banner Image">
+            <img src="assets/images/virtual_photo.jpg" alt="Banner Image">
           </div>
         </div>
         <div class="col-md-6">
@@ -156,42 +156,42 @@
       <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="services-box">
-            <img src="../assets/images/service_icon1.png" alt="">
+            <img src="assets/images/service_icon1.png" alt="">
             <h3>Perfect Results</h3>
             <p>Once edited by professional image editors, the photos go through several cross-check by the quality assurance team to provide a flawless result to the customers. </p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="services-box">
-            <img src="../assets/images/service_icon2.png" alt="">
+            <img src="assets/images/service_icon2.png" alt="">
             <h3>24/7 Custoemer Support</h3>
             <p>If you have any queries regarding image editing services, our 24/7 dedicated customer support team is there to answer. </p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="services-box">
-            <img src="../assets/images/service_icon3.png" alt="">
+            <img src="assets/images/service_icon3.png" alt="">
             <h3>Quick Turnaround</h3>
             <p>We are committed to editing images as customer demand and getting them back to them within the shortest possible time. .</p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="services-box">
-            <img src="../assets/images/service_icon4.png" alt="">
+            <img src="assets/images/service_icon4.png" alt="">
             <h3>Budget-friendly Pricing Policy</h3>
             <p>Our budget-friendly pricing policy targets audiences from all businesses and attracts customers the most. Check our pricing policy</p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="services-box">
-            <img src="../assets/images/service_icon5.png" alt="">
+            <img src="assets/images/service_icon5.png" alt="">
             <h3>Optimized for eCommerce</h3>
             <p>Product photo editing service customized for eCommerce business, personal portfolio making, and websites, available in all formats.</p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="services-box">
-            <img src="../assets/images/service_icon6.png" alt="">
+            <img src="assets/images/service_icon6.png" alt="">
             <h3>Unlimited Revision </h3>
             <p>Get unlimited revisions until and unless you are satisfied. We've edited more than 8 million images for 31,593 businesses like yours</p>
           </div>
@@ -220,7 +220,7 @@
         </div>
         <div class="col-md-6">
           <div class="image-box">
-            <img src="../assets/images/section-how-it-works-01.png" alt="">
+            <img src="assets/images/section-how-it-works-01.png" alt="">
           </div>
         </div>
       </div>
@@ -239,21 +239,21 @@
       <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div id="box_ho" class="why-box">
-            <img src="../assets/images/home_why1.png" alt="">
+            <img src="assets/images/home_why1.png" alt="">
             <h3>Cost-Effective</h3>
             <p>Photo Edit Center offers cost-effective image editing services that can help businesses save money on their production costs. </p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="why-box">
-            <img src="../assets/images/home_why2.png" alt="">
+            <img src="assets/images/home_why2.png" alt="">
             <h3>Superb Quality</h3>
             <p>Photo Edit Center's experienced team of editors and designers can provide high-quality image editing services that meet the highest industry standards. </p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="why-box">
-            <img src="../assets/images/home_why3.png" alt="">
+            <img src="assets/images/home_why3.png" alt="">
             <h3>Secure Data Transfer</h3>
             <p>We use secure data transfer systems to ensure your images remain safe and secure.
             </p>
@@ -266,7 +266,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <img src="../assets/images/heart-01.png" alt="">
+          <img src="assets/images/heart-01.png" alt="">
           <h3>Rediscover your passion for your work again<br>
           </h3>
           <div class="link p-20"><a href="/GetQuote" class="btn">Get Quote</a></div>

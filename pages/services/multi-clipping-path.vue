@@ -114,7 +114,7 @@
         </div>
         <div class="col-md-6">
           <div class="image-box">
-            <img src="../assets/images/section-how-it-works-01.png" alt="">
+            <img src="assets/images/section-how-it-works-01.png" alt="">
           </div>
         </div>
       </div>
