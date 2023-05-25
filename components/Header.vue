@@ -27,7 +27,7 @@
                     <Nuxt-link  to="/how-it-works">How It Works</Nuxt-link>
                   </div>
                   <div class="menu-item"  @mouseover="isOpen = true" @mouseleave="isOpen = false">
-                    <Nuxt-link to="/service">Services</Nuxt-link>
+                    <Nuxt-link to="/services/clipping-path">Services</Nuxt-link>
                     <div class="sub_item" v-if="isOpen">
                       <div class="menu-item">
                         <Nuxt-link to="/services/clipping-path">Clipping Path </Nuxt-link>
