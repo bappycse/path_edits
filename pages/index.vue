@@ -12,7 +12,7 @@
           <div class="text-bg">
             <h1>Get your images edited by the most expert hands</h1>
             <p>Superb image editing services at your convenience, from simple background removal to complex clipping paths. Image editing services for photographers, eCommerce businesses, and product sellers at eCommerce platforms.</p>
-            <a href="/GetQuote">Get Started</a>
+            <a href="/get-quote">Get Started</a>
           </div>
         </div>
         <div class="col-md-3">
