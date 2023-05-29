@@ -1,4 +1,6 @@
 <template>
+  <Title>{{ title }}</Title>
+  <Meta name="description" :content="description" />
   <section class="service_banner">
     <div class="container">
       <div class="row d_flex">
@@ -177,7 +179,8 @@
   </section>
 </template>
 <script setup>
-
+const title = ref('Photo Edits  Center');
+const description = ref('Photo Edits Center provided clipping path related services');
 const imgPreUrl = "";
 
 </script>

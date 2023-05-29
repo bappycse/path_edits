@@ -1,5 +1,9 @@
 <template>
   <header>
+    <Head>
+      <Title>{{ title }}</Title>
+      <Style type="text/css" children="body { background-color: green; }" />
+    </Head>
     <!-- header inner -->
     <div class="header" v-on="handleScroll">
       <div class="container">
@@ -91,75 +95,68 @@
 </template>
 
 <script setup>
-import {onMounted, ref} from "vue";
-const scrollPosition = ref(0);
-
 const isOpen = ref(false);
-
-const updateScroll = () => {
-  scrollPosition.value += window.scrollY;
-}
-onMounted(() => {
-  window.addEventListener('handleScroll', updateScroll);
-  console.log(scrollPosition.value);
+useSeoMeta({
+  title: 'Photo Edits Center',
+  description: 'This is my amazing site, let me tell you all about it.',
 })
 </script>
 
 <style scoped>
-.navbar {
-  padding: 0;
-}
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-nav .menu-item {
-  display: flex;
-  padding: 10px 15px;
-  position: relative;
-  text-align: center;
-  border-bottom: 3px solid transparent;
-  transition: 0.4s;
-}
+  .navbar {
+    padding: 0;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .menu-item {
+    display: flex;
+    padding: 10px 15px;
+    position: relative;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    transition: 0.4s;
+  }
 
-nav .menu-item a {
-  font-weight: 500;
-  font-size: 18px;
-}
+  nav .menu-item a {
+    font-weight: 500;
+    font-size: 18px;
+  }
 
-nav .menu-item.active {
-  background: #444;
-  border-bottom-color: #FF5858;
-}
+  nav .menu-item.active {
+    background: #444;
+    border-bottom-color: #FF5858;
+  }
 
-nav .menu-item .sub_item {
-  position: absolute;
-  background: #e9f5ff;
-  top: calc(100% + 5px);
-  left: 55%;
-  width: max-content;
-  transform: translateX(-50%);
-  border-radius: 12px;
-  padding-bottom: 20px;
-}
+  nav .menu-item .sub_item {
+    position: absolute;
+    background: #e9f5ff;
+    top: calc(100% + 5px);
+    left: 55%;
+    width: max-content;
+    transform: translateX(-50%);
+    border-radius: 12px;
+    padding-bottom: 20px;
+  }
 
-nav .menu-item .sub_item .menu-item {
-  padding: 10px 20px 0;
-}
+  nav .menu-item .sub_item .menu-item {
+    padding: 10px 20px 0;
+  }
 
-nav .menu-item .sub_item .menu-item a {
-  font-size: 16px;
-  font-weight: 500;
-}
+  nav .menu-item .sub_item .menu-item a {
+    font-size: 16px;
+    font-weight: 500;
+  }
 
-.get_quote a{
-  background: #0056b3;
-  border-radius: 4px;
-  color: #fff;
-}
+  .get_quote a{
+    background: #0056b3;
+    border-radius: 4px;
+    color: #fff;
+  }
 
-.free_trial a{
-  padding-left: 0;
-}
+  .free_trial a{
+    padding-left: 0;
+  }
 </style>
