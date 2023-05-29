@@ -19,7 +19,7 @@
               <div class="widget">
                 <h3 class="heading">Services</h3>
                 <ul class="links list-unstyled">
-                  <li><Nuxt-link to="/services/shadowCreation">Shadow Creation</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/shadow-creation">Shadow Creation</Nuxt-link></li>
                   <li><Nuxt-link to="/services/ghost-mannequin">Ghost Mannequin</Nuxt-link></li>
                   <li><Nuxt-link to="/services/photo-retouch">Photo Retouch</Nuxt-link></li>
                   <li><Nuxt-link to="/services/ecommerce-service">E-Commerce Service</Nuxt-link></li>
