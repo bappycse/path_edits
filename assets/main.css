@@ -796,65 +796,65 @@ button {
 }
 
 .service_area .service_box_1 .image {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_1.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_1.jpg") no-repeat;
 }
 
 .service_area .service_box_2 .image {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_3.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_3.jpg") no-repeat;
 }
 
 .service_area .service_box_3 .image {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_5.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_5.jpg") no-repeat;
 }
 
 .service_area .service_box_4 .image {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_7.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_7.jpg") no-repeat;
 }
 
 .service_area .service_box_5 .image {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_9.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_9.jpg") no-repeat;
 }
 
 .service_area .service_box_6 .image {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_11.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_11.jpg") no-repeat;
 }
 
 .service_area .service_box_7 .image {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_13.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_13.jpg") no-repeat;
 }
 
 .service_area .service_box_8 .image {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_15.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_15.jpg") no-repeat;
 }
 
 .service_area .service_box_1 .image:hover {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_2.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_2.jpg") no-repeat;
 }
 
 .service_area .service_box_2 .image:hover {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_4.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_4.jpg") no-repeat;
 }
 
 .service_area .service_box_3 .image:hover {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_6.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_6.jpg") no-repeat;
 }
 
 .service_area .service_box_4 .image:hover {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_8.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_8.jpg") no-repeat;
 }
 
 .service_area .service_box_5 .image:hover {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_10.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_10.jpg") no-repeat;
 }
 .service_area .service_box_6 .image:hover {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_12.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_12.jpg") no-repeat;
 }
 .service_area .service_box_7 .image:hover {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_14.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_14.jpg") no-repeat;
 }
 
 .service_area .service_box_8 .image:hover {
-    background: url("https://api-center.photoeditscenter.com/images/home_service/service_home_16.jpg") no-repeat;
+    background: url("~/assets/images/home_service/service_home_16.jpg") no-repeat;
 }
 
 
@@ -1000,88 +1000,88 @@ button {
 }
 
 .service_banner_clipping_path {
-    background: url("https://api-center.photoeditscenter.com/images/clipping_path/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/clipping_path/banner/banner_after.jpg") no-repeat;
 }
 
 .service_banner_background_remove {
-    background: url("https://api-center.photoeditscenter.com/images/background_remove/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/background_remove/banner/banner_after.jpg") no-repeat;
 }
 
 .service_banner_image_masking {
-    background: url("https://api-center.photoeditscenter.com/images/image_masking/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/image_masking/banner/banner_after.jpg") no-repeat;
 }
 
 .service_banner_image_shadow_creation {
-    background: url("https://api-center.photoeditscenter.com/images/shadow_creation/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/shadow_creation/banner/banner_after.jpg") no-repeat;
 }
 
 .service_banner_image_ghost_mannequin {
-    background: url("https://api-center.photoeditscenter.com/images/ghost/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/ghost/banner/banner_after.jpg") no-repeat;
 }
 
 .service_banner_image_photo_retouch {
-    background: url("https://api-center.photoeditscenter.com/images/photo_retouch/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/photo_retouch/banner/banner_after.jpg") no-repeat;
 }
 
 .service_banner_image_jewellery {
-    background: url("https://api-center.photoeditscenter.com/images/jewellery/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/jewellery/banner/banner_after.jpg") no-repeat;
 }
 .service_banner_image_color_change {
-    background: url("https://api-center.photoeditscenter.com/images/color_change/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/color_change/banner/banner_after.jpg") no-repeat;
 }
 
 .service_banner_image_car_photo {
-    background: url("https://api-center.photoeditscenter.com/images/car_photo/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/car_photo/banner/banner_after.jpg") no-repeat;
 }
 .service_banner_image_multi_clipping_path {
-    background: url("https://api-center.photoeditscenter.com/images/multi_clipping_path/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/multi_clipping_path/banner/banner_after.jpg") no-repeat;
 }
 
 .service_banner_image_ecommerce_service {
-    background: url("https://api-center.photoeditscenter.com/images/ecommerce/banner/banner_after.jpg") no-repeat;
+    background: url("~/assets/images/ecommerce/banner/banner_after.jpg") no-repeat;
 }
 
 .service_banner_clipping_path:hover {
-    background: url("https://api-center.photoeditscenter.com/images/clipping_path/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/clipping_path/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_background_remove:hover {
-    background: url("https://api-center.photoeditscenter.com/images/background_remove/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/background_remove/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_image_masking:hover {
-    background: url("https://api-center.photoeditscenter.com/images/image_masking/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/image_masking/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_image_shadow_creation:hover {
-    background: url("https://api-center.photoeditscenter.com/images/shadow_creation/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/shadow_creation/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_image_ghost_mannequin:hover {
-    background: url("https://api-center.photoeditscenter.com/images/ghost/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/ghost/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_image_photo_retouch:hover {
-    background: url("https://api-center.photoeditscenter.com/images/photo_retouch/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/photo_retouch/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_image_jewellery:hover {
-    background: url("https://api-center.photoeditscenter.com/images/jewellery/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/jewellery/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_image_color_change:hover {
-    background: url("https://api-center.photoeditscenter.com/images/color_change/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/color_change/banner/banner_before.jpg") no-repeat;
 }
 .service_banner_image_car_photo:hover {
-    background: url("https://api-center.photoeditscenter.com/images/car_photo/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/car_photo/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_image_multi_clipping_path:hover {
-    background: url("https://api-center.photoeditscenter.com/images/multi_clipping_path/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/multi_clipping_path/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_image_ecommerce_service:hover {
-    background: url("https://api-center.photoeditscenter.com/images/ecommerce/banner/banner_before.jpg") no-repeat;
+    background: url("~/assets/images/ecommerce/banner/banner_before.jpg") no-repeat;
 }
 
 
@@ -1195,7 +1195,7 @@ ul.how_works li:before {
     height: 30px;
     width: 30px;
     background-size: contain;
-    background-image: url(https://api-center.photoeditscenter.com/images/check.png);
+    background-image: url(~/assets/images/check.png);
 }
 
 .section_space {

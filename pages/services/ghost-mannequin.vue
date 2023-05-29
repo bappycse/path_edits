@@ -1,4 +1,8 @@
 <template>
+  <Head>
+    <Title>{{ title }}</Title>
+    <Meta name="description" :content="description" />
+  </Head>
   <section class="service_banner">
     <div class="container">
       <div class="row d_flex">
@@ -19,8 +23,8 @@
             <p>satisfaction guaranteed</p>
           </div>
           <div class="link">
-            <a href="/GetQuote" class="btn">Get Quote</a>
-            <a href="/FreeTrial" class="btn trial">Free Trial</a>
+            <a href="/get-quote" class="btn">Get Quote</a>
+            <a href="/free-trial" class="btn trial">Free Trial</a>
           </div>
         </div>
 
@@ -73,29 +77,29 @@
       <div class="row">
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `ghost/sample/` + `sample1.jpg`">
+            <img src="~/assets/images/ghost/sample/sample1.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `ghost/sample/` + `sample2.jpg`">
+            <img src="~/assets/images/ghost/sample/sample2.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `ghost/sample/` + `sample3.jpg`">
+            <img src="~/assets/images/ghost/sample/sample3.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `ghost/sample/` + `sample4.jpg`">
+            <img src="~/assets/images/ghost/sample/sample4.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 text-center pt_20">
           <div class="link ">
-            <a href="/GetQuote" class="btn ">Get Quote</a>
+            <a href="/get-quote" class="btn ">Get Quote</a>
           </div>
         </div>
       </div>
@@ -120,7 +124,7 @@
         </div>
         <div class="col-md-6">
           <div class="image-box">
-            <img src="assets/images/section-how-it-works-01.png" alt="">
+            <img src="~/assets/images/section-how-it-works-01.png" alt="">
           </div>
         </div>
       </div>
@@ -138,24 +142,24 @@
       <div class="row">
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `ghost/works/` + `works1.jpg`">
+            <img src="~/assets/images/ghost/works/works1.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `ghost/works/` + `works1.jpg`">
+            <img src="~/assets/images/ghost/works/works2.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `ghost/works/` + `works1.jpg`">
+            <img src="~/assets/images/ghost/works/works3.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 text-center pt_20">
           <div class="link ">
-            <a href="/GetQuote" class="btn ">Get Quote</a>
+            <a href="/get-quote" class="btn ">Get Quote</a>
           </div>
         </div>
       </div>
@@ -195,8 +199,8 @@
 
 </template>
 <script setup>
-//const imgPreUrl = ref('https://api-center.photoeditscenter.com/images/images/');
-const imgPreUrl = "";
+const title = ref('Photo Edits Center | Ghost Mannequin services');
+const description = ref('Photo Edits Center provided clipping path related services and Ghost Mannequin services');
 
 </script>
 

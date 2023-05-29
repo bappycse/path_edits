@@ -1,4 +1,8 @@
 <template>
+  <Head>
+    <Title>{{ title }}</Title>
+    <Meta name="description" :content="description" />
+  </Head>
   <section class="contact" id="contact">
     <div class="container">
       <div class="row">
@@ -152,6 +156,8 @@
   </section>
 </template>
 <script setup>
+const title = ref('Photo Edits  Center | Free Trial');
+const description = ref('Photo Edits Center provided clipping path related services');
 const allInfo = ref({
   name: null,
   email: null,

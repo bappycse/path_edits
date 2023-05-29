@@ -1,4 +1,8 @@
 <template>
+  <Head>
+    <Title>{{ title }}</Title>
+    <Meta name="description" :content="description" />
+  </Head>
   <section class="individual_banner">
     <div class="container">
       <div class="row text-center">
@@ -77,7 +81,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -138,7 +142,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -199,7 +203,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -260,7 +264,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -321,7 +325,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -382,7 +386,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -443,7 +447,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -504,7 +508,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -565,7 +569,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -626,7 +630,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -687,7 +691,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -748,7 +752,7 @@
       </div>
       <div class="row text-center  ">
         <div class="col-md-12">
-          <div class="link p-50"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-50"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -770,7 +774,7 @@
           <h3>Don’t wait and take our top-notch services Now!<br>
             <span>Get attractive discounts on Bulk Order</span>
           </h3>
-          <div class="link p-20"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-20"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>
@@ -778,7 +782,8 @@
 
 </template>
 <script setup>
-
+const title = ref('Photo Edits  Center | Prices');
+const description = ref('Photo Edits Center provided clipping path related services');
 </script>
 
 <style scoped>

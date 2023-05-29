@@ -19,7 +19,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="image-box">
-            <img src="assets/images/works1.png" alt="">
+            <img src="~/assets/images/works1.png" alt="">
           </div>
         </div>
         <div class="col-md-6">
@@ -44,7 +44,7 @@
         </div>
         <div class="col-md-6">
           <div class="img-box">
-            <img src="assets/images/works2.png" alt="">
+            <img src="~/assets/images/works2.png" alt="">
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="image-box">
-            <img src="assets/images/works5.png" alt="">
+            <img src="~/assets/images/works5.png" alt="">
           </div>
         </div>
         <div class="col-md-6">
@@ -80,7 +80,7 @@
         </div>
         <div class="col-md-6">
           <div class="image-box">
-            <img src="assets/images/works5.png" alt="">
+            <img src="~/assets/images/works5.png" alt="">
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="image-box">
-            <img src="assets/images/works5.png" alt="">
+            <img src="~/assets/images/works5.png" alt="">
           </div>
         </div>
         <div class="col-md-6">
@@ -106,7 +106,7 @@
   </section>
 </template>
 <script setup>
-const title = ref('Photo Edits  Center');
+const title = ref('Photo Edits  Center | How it Works');
 const description = ref('Photo Edits Center provided clipping path related services');
 </script>
 <style scoped>

@@ -2,7 +2,6 @@
   <header>
     <Head>
       <Title>{{ title }}</Title>
-      <Style type="text/css" children="body { background-color: green; }" />
     </Head>
     <!-- header inner -->
     <div class="header" v-on="handleScroll">
@@ -25,10 +24,10 @@
               <div class="">
                 <nav>
                   <div class="menu-item">
-                    <Nuxt-link  to="/">Home</Nuxt-link>
+                    <Nuxt-link to="/">Home</Nuxt-link>
                   </div>
                   <div class="menu-item">
-                    <Nuxt-link  to="/how-it-works">How It Works</Nuxt-link>
+                    <Nuxt-link to="/how-it-works">How It Works</Nuxt-link>
                   </div>
                   <div class="menu-item"  @mouseover="isOpen = true" @mouseleave="isOpen = false">
                     <Nuxt-link to="/services/clipping-path">Services</Nuxt-link>
@@ -98,7 +97,7 @@
 const isOpen = ref(false);
 useSeoMeta({
   title: 'Photo Edits Center',
-  description: 'This is my amazing site, let me tell you all about it.',
+  description: '',
 })
 </script>
 

@@ -17,7 +17,7 @@
         </div>
         <div class="col-md-3">
           <div class="text-img">
-            <img src="~/~/assets/images/banner.png" alt="Banner Image">
+            <img src="~/assets/images/banner.png" alt="Banner Image">
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
             <div class="text">
               <h3>Background Removal Service</h3>
               <p>Background removal service is a process of digitally removing the background from an image to focus on the subject matter. It enhances the overall look and feel of the image.</p>
-              <a href="/backgroundRemoval" class="btn btn-primary">Read More</a>
+              <a href="/services/background-removal" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
             <div class="text">
               <h3>Clipping Path Services</h3>
               <p>Clipping path services are an image editing technique used to remove backgrounds from images for eCommerce products, architectural projects, and other visual media.</p>
-              <a href="/clippingPath" class="btn btn-primary">Read More</a>
+              <a href="/services/clipping-path" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@
             <div class="text">
               <h3>Ghost Mannequin Service</h3>
               <p>Ghost mannequin service is an innovative way to enhance the look of your product photos, making them look more realistic and professional. </p>
-              <a href="/ghostMannequin" class="btn btn-primary">Read More</a>
+              <a href="/services/ghost-mannequin" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@
             <div class="text">
               <h3>Car Photo Editing</h3>
               <p>Car Photo Editing is the process of digitally enhancing a photograph of a car to make it look more visually appealing</p>
-              <a href="/carService" class="btn btn-primary">Read More</a>
+              <a href="/services/car-service" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
             <div class="text">
               <h3>Image Masking Service</h3>
               <p>Image masking services are a specialized subset of image processing services that involve editing out certain elements from an image, such as backgrounds, objects, and unwanted elements. </p>
-              <a href="/imageMasking" class="btn btn-primary">Read More</a>
+              <a href="/services/image-masking" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@
             <div class="text">
               <h3>Shadow Creation Services</h3>
               <p>Take advantage of the Shadow Creation service from Photo Edit Center, and give your images the extra dimension they need to stand out!</p>
-              <a href="/shadowCreation" class="btn btn-primary">Read More</a>
+              <a href="/services/shadow-creation" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@
             <div class="text">
               <h3>Photo Retouch Services</h3>
               <p>Photo retouching is a process of editing photos to enhance their look and quality. It includes color correction, blemish removal, airbrushing, and any other digital editing.</p>
-              <a href="/photoRetouch" class="btn btn-primary">Read More</a>
+              <a href="/services/photo-retouch" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>
@@ -138,7 +138,7 @@
             <div class="text">
               <h3>Color Changes Service</h3>
               <p>E-commerce photo editing services provide a cost-effective way to enhance product images for online stores.</p>
-              <a href="/colorChange" class="btn btn-primary">Read More</a>
+              <a href="/services/color-change" class="btn btn-primary">Read More</a>
             </div>
           </div>
         </div>

@@ -1,4 +1,8 @@
 <template>
+  <Head>
+    <Title>{{ title }}</Title>
+    <Meta name="description" :content="description" />
+  </Head>
   <section class="contact" id="contact">
     <div class="container">
       <div class="row">
@@ -92,7 +96,8 @@
   </section>
 </template>
 <script setup>
-
+const title = ref('Photo Edits  Center | Get Quote');
+const description = ref('Photo Edits Center provided clipping path related services');
 const allServices = [
   { id: 1, name: "Clipping Path", selected: false },
   { id: 2, name: "Background Remove", selected: false },

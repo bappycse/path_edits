@@ -8,10 +8,10 @@
               <div class="widget">
                 <h3 class="heading">Services</h3>
                 <ul class="links list-unstyled">
-                  <li><router-link to="/clippingPath">Clipping Path</router-link></li>
-                  <li><router-link to="/backgroundRemoval">Background Removal</router-link></li>
-                  <li><router-link to="/imageMasking">Image Masking</router-link></li>
-                  <li><router-link to="/jewelleryService">Jewelry Photo</router-link></li>
+                  <li><Nuxt-link to="/services/clipping-path">Clipping Path</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/background-removal">Background Removal</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/image-masking">Image Masking</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/jewellery-service">Jewelry Photo</Nuxt-link></li>
                 </ul>
               </div>
             </div>
@@ -19,10 +19,10 @@
               <div class="widget">
                 <h3 class="heading">Services</h3>
                 <ul class="links list-unstyled">
-                  <li><router-link to="/shadowCreation">Shadow Creation</router-link></li>
-                  <li><router-link to="/ghostMannequin">Ghost Mannequin</router-link></li>
-                  <li><router-link to="/photoRetouch">Photo Retouch</router-link></li>
-                  <li><router-link to="/ecommerceService">E-Commerce Service</router-link></li>
+                  <li><Nuxt-link to="/services/shadowCreation">Shadow Creation</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/ghost-mannequin">Ghost Mannequin</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/photo-retouch">Photo Retouch</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/ecommerce-service">E-Commerce Service</Nuxt-link></li>
                 </ul>
               </div>
             </div>
@@ -30,10 +30,10 @@
               <div class="widget">
                 <h3 class="heading">Services</h3>
                 <ul class="links list-unstyled">
-                  <li><router-link to="/colorChange">Color Change</router-link></li>
-                  <li><router-link to="/carService">Car Photo Editing</router-link></li>
-                  <li><router-link to="/multiClippingPath">Multi Clipping Path</router-link></li>
-                  <li><router-link to="/vectorServices">Vector Services</router-link></li>
+                  <li><Nuxt-link to="/services/color-change">Color Change</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/car-service">Car Photo Editing</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/multi-clipping-path">Multi Clipping Path</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/vector-services">Vector Services</Nuxt-link></li>
                 </ul>
               </div>
             </div>

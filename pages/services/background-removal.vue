@@ -22,8 +22,8 @@
             <p>Satisfaction guaranteed</p>
           </div>
           <div class="link">
-            <a href="/GetQuote" class="btn">Get Quote</a>
-            <a href="/FreeTrial" class="btn trial">Free Trial</a>
+            <a href="/get-quote" class="btn">Get Quote</a>
+            <a href="/free-trial" class="btn trial">Free Trial</a>
           </div>
         </div>
       </div>
@@ -71,29 +71,29 @@
       <div class="row">
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `background_remove/sample/` + `sample1.jpg`">
+            <img src="~/assets/images/background_remove/sample/sample1.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `background_remove/sample/` + `sample2.jpg`">
+            <img src="~/assets/images/background_remove/sample/sample2.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `background_remove/sample/` + `sample3.jpg`">
+            <img src="~/assets/images/background_remove/sample/sample3.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `background_remove/sample/` + `sample4.jpg`">
+            <img src="~/assets/images/background_remove/sample/sample4.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 text-center pt_20">
           <div class="link ">
-            <a href="/GetQuote" class="btn ">Get Quote</a>
+            <a href="/get-quote" class="btn ">Get Quote</a>
           </div>
         </div>
       </div>
@@ -135,24 +135,24 @@
       <div class="row">
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `background_remove/works/` + `works1.jpg`">
+            <img src="~/assets/images/background_remove/works/works1.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `background_remove/works/` + `works2.jpg`">
+            <img src="~/assets/images/background_remove/works/works2.jpg" alt="">
           </div>
         </div>
         <div class="col-md-3">
           <div class="sample_box_image">
-            <img :src="imgPreUrl + `background_remove/works/` + `works3.jpg`">
+            <img src="~/assets/images/background_remove/works/works3.jpg" alt="">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 text-center pt_20">
           <div class="link ">
-            <a href="/GetQuote" class="btn ">Get Quote</a>
+            <a href="/get-quote" class="btn ">Get Quote</a>
           </div>
         </div>
       </div>
@@ -192,8 +192,8 @@
 
 </template>
 <script setup>
-const title = ref('Photo Edits  Center');
-const description = ref('Photo Edits Center provided clipping path related services');
+const title = ref('Photo Edits Center | Background Remove Services');
+const description = ref('Photo Edits Center provided clipping path related services and Background Remove Services');
 
 const imgPreUrl = '';
 </script>
