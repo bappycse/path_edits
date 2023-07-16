@@ -8,5 +8,5 @@ export default defineNuxtConfig({
         "bootstrap/dist/css/bootstrap.css",
         "bootstrap-vue/dist/bootstrap-vue.css",
         "~/assets/main.css"
-    ],
+    ]
 });

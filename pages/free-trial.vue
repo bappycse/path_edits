@@ -156,6 +156,19 @@
   </section>
 </template>
 <script setup>
+const axios = useNuxtApp().$axios
+onMounted(() => {
+  axios.get('https://reqres.in/api/users').then((response)=>{
+    console.log('response', response);
+  })
+})
+const users = ref([]);
+const { $axios } = useNuxtApp();
+onMounted(() => {
+  fetch('https://jsonplaceholder.typicode.com/users')
+      .then(response => response.json())
+      .then(data => users.value = data)
+})
 const title = ref('Photo Edits  Center | Free Trial');
 const description = ref('Photo Edits Center provided clipping path related services');
 const allInfo = ref({
@@ -453,9 +466,36 @@ function formatBytes(bytes, decimals = 2) {
   return `${parseFloat((bytes / Math.pow(k, i)).toFixed(dm))} ${sizes[i]}`
 }
 
+
+let headers = new Headers();
+
+headers.append('Content-Type', 'application/json');
+headers.append('Accept', 'application/json');
+headers.append('Access-Control-Allow-Origin', 'http://localhost:3000');
+
+
+const formData = ref({
+  email: ''
+})
+
 function freeTrial() {
+  console.log(allInfo.value.email);
+  $axios.post('http://local.api.com/api/free-trial-info',  allInfo.value )
+      .then((response) => {
+        console.log(response);
+      });
 
-
+  const fd = new FormData();
+  for(let i= 0; i < imageFile.value.length; i++){
+    fd.append('image[]', imageFile.value[i]);
+  }
+  console.log('fd',fd);
+  $axios.post('http://local.api.com/api/free-trial', fd)
+      .then((response) => {
+        if(response.status == 200){
+          status.value = true
+        }
+      })
 }
 </script>
 
