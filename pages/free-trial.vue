@@ -480,7 +480,7 @@ const formData = ref({
 
 function freeTrial() {
   console.log(allInfo.value.email);
-  $axios.post('http://local.api.com/api/free-trial-info',  allInfo.value )
+  $axios.post('http://api.photoedits.com/api/free-trial-info',  allInfo.value )
       .then((response) => {
         console.log(response);
       });
@@ -490,7 +490,7 @@ function freeTrial() {
     fd.append('image[]', imageFile.value[i]);
   }
   console.log('fd',fd);
-  $axios.post('http://local.api.com/api/free-trial', fd)
+  $axios.post('http://api.photoedits.com/api/free-trial', fd)
       .then((response) => {
         if(response.status == 200){
           status.value = true
