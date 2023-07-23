@@ -98,6 +98,8 @@
   </section>
 </template>
 <script setup>
+const axios = useNuxtApp().$axios
+const { $axios } = useNuxtApp();
 const title = ref('Photo Edits  Center | Get Quote');
 const description = ref('Photo Edits Center provided clipping path related services');
 const allServices = [
