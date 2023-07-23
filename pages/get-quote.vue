@@ -60,7 +60,9 @@
                     </table>
                   </div>
                   <div class="form-group">
-                    <button class="btn btn-block" type="submit">Send Now!</button>
+                    <button class="btn btn-block" :class="{ 'in-active': status }" type="submit" >Send Now!</button>
+                    <img src="~/assets/images/mail_send.gif" class="in-active" :class="{ 'active': sendStatus }"   alt="Send Mail Image" >
+                    <p class="text-center in-active " :class="{ 'send-message': sendStatusDone}" >Quotation Send Successfully</p>
                   </div>
                 </form>
               </div>
@@ -134,6 +136,19 @@ const allInfo = ref({
   serviceName: serviceData,
   serviceType: "Commercial",
 });
+
+const resetData = () => {
+  allInfo.value.name = null;
+  allInfo.value.email = null;
+  allInfo.value.country = null;
+  allInfo.value.phone = null;
+  allInfo.value.message = null;
+  allInfo.value.files = null;
+}
+
+const status = ref(false);
+const sendStatus = ref(false);
+const sendStatusDone = ref(false);
 
 const countryList = [
   "Afghanistan",
@@ -418,7 +433,28 @@ function formatBytes(bytes, decimals = 2) {
 }
 
 function freeTrial() {
+  $axios.post('http://api.photoedits.com/api/free-trial-info',  allInfo.value )
+      .then((response) => {
+        console.log(response);
+      });
 
+  sendStatus.value = true;
+  status.value = true
+  const fd = new FormData();
+  for(let i= 0; i < imageFile.value.length; i++){
+    fd.append('image[]', imageFile.value[i]);
+  }
+
+  console.log('fd',fd);
+  $axios.post('http://api.photoedits.com/api/free-trial', fd)
+      .then((response) => {
+        if(response.status == 200){
+          sendStatus.value = false;
+          sendStatusDone.value = true;
+          uploadFiles.value = '';
+          resetData();
+        }
+      })
 }
 </script>
 
@@ -576,6 +612,14 @@ select{
 .social-link a {
   margin: 0 8px;
   color: #007bff;
+}
+
+.in-active {
+  display: none;
+}
+
+.active {
+  display: block;
 }
 
 </style>
