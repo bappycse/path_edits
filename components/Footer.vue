@@ -44,12 +44,12 @@
                   <li class="email"><a href="#">info@photoeditscenter.com</a></li>
                   <li class="address"><a href="#">Dhaka Bangladesh</a></li>
                   <li class="social-link">
-                    <a href="https://www.facebook.com/PhotoEditsCenter" target="_blank"><font-awesome-icon icon="fa-brands fa-facebook" /></a>
-                    <a href="https://twitter.com/photoeditscenter" target="_blank"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                    <a href="https://www.linkedin.com/in/photo-edits-center-b5591524a" target="_blank"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
-                    <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><font-awesome-icon icon="fa-brands fa-tumblr" /></a>
-                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><font-awesome-icon icon="fa-brands fa-pinterest" /></a>
-                    <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><font-awesome-icon icon="fa-brands fa-instagram" /></a>
+                    <a href="https://www.facebook.com/PhotoEditsCenter" target="_blank"><Icon name="bxl:facebook-square" color="black" /></a>
+                    <a href="https://twitter.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="black" /></a>
+                    <a href="https://www.linkedin.com/in/photo-edits-center-b5591524a" target="_blank"><Icon name="bxl:linkedin-square" color="black" /></a>
+                    <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><Icon name="bxl:tumblr" color="black" /></a>
+                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="black" /></a>
+                    <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><Icon name="bxl:instagram" color="black" /></a>
                   </li>
                 </ul>
               </div>

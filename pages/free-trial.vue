@@ -120,7 +120,8 @@
                   </div>
                   <div class="form-group">
                     <button class="btn btn-block" :class="{ 'in-active': status }" type="submit" >Send Now!</button>
-                    <p class="text-center in-active " :class="{ 'send-message': status}" >Quotation Send Successfully</p>
+                    <img src="~/assets/images/mail_send.gif" class="in-active" :class="{ 'active': sendStatus }"   alt="Send Mail Image" >
+                    <p class="text-center in-active " :class="{ 'send-message': sendStatusDone}" >Quotation Send Successfully</p>
                   </div>
                 </form>
               </div>
@@ -139,12 +140,12 @@
                     <span><b>Email: </b> <a href="mailto:info@photoeditscenter.com">info@photoeditscenter.com</a></span>
                   </div>
                   <div class="info d-flex align-items-center social-link">
-                    <a href="https://www.facebook.com/PhotoEditsCenter" target="_blank"><font-awesome-icon icon="fa-brands fa-facebook" /></a>
-                    <a href="https://twitter.com/photoeditscenter" target="_blank"><font-awesome-icon icon="fa-brands fa-twitter" /></a>
-                    <a href="https://www.linkedin.com/in/photo-edits-center-b5591524a" target="_blank"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
-                    <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><font-awesome-icon icon="fa-brands fa-tumblr" /></a>
-                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><font-awesome-icon icon="fa-brands fa-pinterest" /></a>
-                    <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><font-awesome-icon icon="fa-brands fa-instagram" /></a>
+                    <a href="https://www.facebook.com/PhotoEditsCenter" target="_blank"><Icon name="bxl:facebook-square" color="black" /></a>
+                    <a href="https://twitter.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="black" /></a>
+                    <a href="https://www.linkedin.com/in/photo-edits-center-b5591524a" target="_blank"><Icon name="bxl:linkedin-square" color="black" /></a>
+                    <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><Icon name="bxl:tumblr" color="black" /></a>
+                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="black" /></a>
+                    <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><Icon name="bxl:instagram" color="black" /></a>
                   </div>
                 </div>
               </div>
@@ -157,18 +158,7 @@
 </template>
 <script setup>
 const axios = useNuxtApp().$axios
-onMounted(() => {
-  axios.get('https://reqres.in/api/users').then((response)=>{
-    console.log('response', response);
-  })
-})
-const users = ref([]);
 const { $axios } = useNuxtApp();
-onMounted(() => {
-  fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      .then(data => users.value = data)
-})
 const title = ref('Photo Edits  Center | Free Trial');
 const description = ref('Photo Edits Center provided clipping path related services');
 const allInfo = ref({
@@ -182,7 +172,18 @@ const allInfo = ref({
   serviceType: "Free Trial"
 });
 
+const resetData = () => {
+  allInfo.value.name = null;
+  allInfo.value.email = null;
+  allInfo.value.country = null;
+  allInfo.value.phone = null;
+  allInfo.value.message = null;
+  allInfo.value.files = null;
+}
+
 const status = ref(false);
+const sendStatus = ref(false);
+const sendStatusDone = ref(false);
 
 const countryList = [
   "Afghanistan",
@@ -440,6 +441,8 @@ const imageFile = ref("");
 const uploadFiles = ref([]);
 
 const onChange = (e)=> {
+  status.value = false;
+  sendStatusDone.value = false;
   uploadFiles.value = [];
   if(e.target.files.length === 0) {
     imageFile.value = "";
@@ -466,34 +469,27 @@ function formatBytes(bytes, decimals = 2) {
   return `${parseFloat((bytes / Math.pow(k, i)).toFixed(dm))} ${sizes[i]}`
 }
 
-
-let headers = new Headers();
-
-headers.append('Content-Type', 'application/json');
-headers.append('Accept', 'application/json');
-headers.append('Access-Control-Allow-Origin', 'http://localhost:3000');
-
-
-const formData = ref({
-  email: ''
-})
-
 function freeTrial() {
-  console.log(allInfo.value.email);
-  $axios.post('http://api.photoedits.com/api/free-trial-info',  allInfo.value )
+  $axios.post('http://local.api.com/api/free-trial-info',  allInfo.value )
       .then((response) => {
         console.log(response);
       });
 
+  sendStatus.value = true;
+  status.value = true
   const fd = new FormData();
   for(let i= 0; i < imageFile.value.length; i++){
     fd.append('image[]', imageFile.value[i]);
   }
+
   console.log('fd',fd);
-  $axios.post('http://api.photoedits.com/api/free-trial', fd)
+  $axios.post('http://local.api.com/api/free-trial', fd)
       .then((response) => {
         if(response.status == 200){
-          status.value = true
+          sendStatus.value = false;
+          sendStatusDone.value = true;
+          uploadFiles.value = '';
+          resetData();
         }
       })
 }
@@ -657,6 +653,10 @@ select{
 
 .in-active {
   display: none;
+}
+
+.active {
+  display: block;
 }
 
 .send-message {
