@@ -13,7 +13,7 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Shadow Creation Services</h1>
-            <p class="service_price">Starting at <span>.49$</span> per image</p>
+            <p class="service_price">Starting at <span>0.49$</span> per image</p>
             <p class="desc">Take advantage of the Shadow Creation service from Photo Edit Center, and give your images the extra dimension they need to stand out!</p>
           </div>
           <div class="service_ensure">
