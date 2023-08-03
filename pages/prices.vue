@@ -162,19 +162,19 @@
           <h3>Category</h3>
           <table class="text-center">
             <tr>
-              <td>Basic Clipping Path</td>
+              <td>Basic Image Masking</td>
               <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
-              <td>Simple Clipping Path</td>
+              <td>Simple Image Masking</td>
               <td class="price">1.49 USD per image</td>
             </tr>
             <tr>
-              <td>Medium Clipping Path</td>
+              <td>Medium Image Masking</td>
               <td class="price">2.49 USD per image</td>
             </tr>
             <tr>
-              <td>Complex Clipping Path</td>
+              <td>Complex Image Masking</td>
               <td class="price">5.99 USD per image</td>
             </tr>
           </table>
@@ -183,19 +183,19 @@
           <h3>Bulk price</h3>
           <table class="text-center">
             <tr>
-              <td>Basic Clipping Path</td>
+              <td>Basic Image Masking</td>
               <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
-              <td>Simple Clipping Path</td>
+              <td>Simple Image Masking</td>
               <td class="price">1.49 USD per image</td>
             </tr>
             <tr>
-              <td>Medium Clipping Path</td>
+              <td>Medium Image Masking</td>
               <td class="price">2.49 USD per image</td>
             </tr>
             <tr>
-              <td>Complex Clipping Path</td>
+              <td>Complex Image Masking</td>
               <td class="price">5.99 USD per image</td>
             </tr>
           </table>
@@ -223,19 +223,19 @@
           <h3>Category</h3>
           <table class="text-center">
             <tr>
-              <td>Basic Clipping Path</td>
+              <td>Basic Shadow Creation</td>
               <td class="price">0.49 USD per image</td>
             </tr>
             <tr>
-              <td>Simple Clipping Path</td>
+              <td>Simple Shadow Creation</td>
               <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
-              <td>Medium Clipping Path</td>
+              <td>Medium Shadow Creation</td>
               <td class="price">1.29 USD per image</td>
             </tr>
             <tr>
-              <td>Complex Clipping Path</td>
+              <td>Complex Shadow Creation</td>
               <td class="price">2.99 USD per image</td>
             </tr>
           </table>
@@ -244,19 +244,19 @@
           <h3>Bulk price</h3>
           <table class="text-center">
             <tr>
-              <td>Basic Clipping Path</td>
+              <td>Basic Shadow Creation</td>
               <td class="price">0.29 USD per image</td>
             </tr>
             <tr>
-              <td>Simple Clipping Path</td>
+              <td>Simple Shadow Creation</td>
               <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
-              <td>Medium Clipping Path</td>
+              <td>Medium Shadow Creation</td>
               <td class="price">2.99 USD per image</td>
             </tr>
             <tr>
-              <td>Complex Clipping Path</td>
+              <td>Complex Shadow Creation</td>
               <td class="price">5.49 USD per image</td>
             </tr>
           </table>
@@ -284,19 +284,19 @@
           <h3>Category</h3>
           <table class="text-center">
             <tr>
-              <td>Basic Clipping Path</td>
+              <td>Basic Ghost Mannequin</td>
               <td class="price">0.29 USD per image</td>
             </tr>
             <tr>
-              <td>Simple Clipping Path</td>
+              <td>Simple Ghost Mannequin</td>
               <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
-              <td>Medium Clipping Path</td>
+              <td>Medium Ghost Mannequin</td>
               <td class="price">2.99 USD per image</td>
             </tr>
             <tr>
-              <td>Complex Clipping Path</td>
+              <td>Complex Ghost Mannequin</td>
               <td class="price">5.49 USD per image</td>
             </tr>
           </table>
@@ -305,19 +305,19 @@
           <h3>Bulk price</h3>
           <table class="text-center">
             <tr>
-              <td>Basic Clipping Path</td>
+              <td>Basic Ghost Mannequin</td>
               <td class="price">0.29 USD per image</td>
             </tr>
             <tr>
-              <td>Simple Clipping Path</td>
+              <td>Simple Ghost Mannequin</td>
               <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
-              <td>Medium Clipping Path</td>
+              <td>Medium Ghost Mannequin</td>
               <td class="price">2.99 USD per image</td>
             </tr>
             <tr>
-              <td>Complex Clipping Path</td>
+              <td>Complex Ghost Mannequin</td>
               <td class="price">5.49 USD per image</td>
             </tr>
           </table>

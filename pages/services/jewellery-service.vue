@@ -13,11 +13,11 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Jewelry Photo Editing </h1>
-            <p class="service_price">Starting at <span>85¢</span> per image</p>
+            <p class="service_price">Starting at <span>0.49$</span> per image</p>
             <p class="desc">Jewellery Service is the most valuable service in photography. Shooting every product may increase the cost. Get single-color product images edited to multiple color variants at the lowest cost. We  do the best color change service and give your product photos to any colors according to their variants.</p>
           </div>
           <div class="service_ensure">
-            <p>within 16-24 hrs delivery</p>
+            <p>within 12-24 hrs delivery</p>
             <p> 1000 images per day</p>
             <p>satisfaction guaranteed</p>
           </div>

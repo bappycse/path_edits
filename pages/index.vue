@@ -275,7 +275,7 @@
           <img src="~/assets/images/heart-01.png" alt="">
           <h3>Rediscover your passion for your work again<br>
           </h3>
-          <div class="link p-20"><a href="/GetQuote" class="btn">Get Quote</a></div>
+          <div class="link p-20"><a href="/get-quote" class="btn">Get Quote</a></div>
         </div>
       </div>
     </div>

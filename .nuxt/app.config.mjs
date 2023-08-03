@@ -1,5 +1,5 @@
 
-import { defuFn } from '/home/bappy/Workspace/path_edits/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/home/bappy/workspace/path_edits/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

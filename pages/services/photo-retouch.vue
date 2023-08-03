@@ -13,11 +13,11 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Photo Retouching Services</h1>
-            <p class="service_price">Starting at <span>85¢</span> per image</p>
+            <p class="service_price">Starting at <span>.69$</span> per image</p>
             <p class="desc">Transform your photos and make them look their best with our professional photo retouching services - Contact us today to get started!</p>
           </div>
           <div class="service_ensure">
-            <p>within 16-24 hrs delivery</p>
+            <p>within 12-24 hrs delivery</p>
             <p> 1000 images per day</p>
             <p>satisfaction guaranteed</p>
           </div>

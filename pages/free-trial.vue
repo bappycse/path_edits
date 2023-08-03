@@ -144,7 +144,7 @@
                     <a href="https://twitter.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="black" /></a>
                     <a href="https://www.linkedin.com/in/photo-edits-center-b5591524a" target="_blank"><Icon name="bxl:linkedin-square" color="black" /></a>
                     <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><Icon name="bxl:tumblr" color="black" /></a>
-                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="black" /></a>
+                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><Icon name="bxl:pinterest" color="black" /></a>
                     <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><Icon name="bxl:instagram" color="black" /></a>
                   </div>
                 </div>
