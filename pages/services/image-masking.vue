@@ -13,12 +13,12 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Image Masking Services</h1>
-            <p class="service_price">Starting at <span>85¢</span> per image</p>
+            <p class="service_price">Starting at <span>.29$</span> per image</p>
             <p class="desc">Transform your images into works of art with our image masking service - try it now!
             </p>
           </div>
           <div class="service_ensure">
-            <p>within 16-24 hrs delivery</p>
+            <p>within 12-24 hrs delivery</p>
             <p> 1000 images per day</p>
             <p>satisfaction guaranteed</p>
           </div>
