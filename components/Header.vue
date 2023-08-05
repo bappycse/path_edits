@@ -72,10 +72,13 @@
                     </div>
                   </div>
                   <div class="menu-item">
+                    <Nuxt-link to="/prices">Prices</Nuxt-link>
+                  </div>
+                  <div class="menu-item">
                     <Nuxt-link to="/about">About Us</Nuxt-link>
                   </div>
                   <div class="menu-item">
-                    <Nuxt-link to="/prices">Prices</Nuxt-link>
+                    <Nuxt-link to="/contact">Contact</Nuxt-link>
                   </div>
                   <div class="menu-item get_quote">
                     <Nuxt-link class="md:hidden nav-link" to="/get-quote">Get Quote</Nuxt-link>
