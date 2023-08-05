@@ -1,8 +1,8 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
+  <Head>
+    <Title>{{ title }}</Title>
+    <Meta name="description" :content="description" />
+  </Head>
   <section class="service_banner">
     <div class="container">
       <div class="row">
@@ -148,3 +148,7 @@ h1 {
   line-height: 20px;
 }
 </style>
+<script setup lang="ts">
+const title = ref('Photo Edits Center | Contact');
+const description = ref('Photo Edits Center provided clipping path related services and Background Remove Services');
+</script>
