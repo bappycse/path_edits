@@ -13,7 +13,7 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Background Remove Services</h1>
-            <p class="service_price">Starting at <span>0.29$</span> per image</p>
+            <p class="service_price">Starting at <span>0.25$</span> per image</p>
             <p class="desc">Background Removal Services is a process of removing the background of an image and replacing it with a solid color, pattern, or transparent background. This can be done manually or by using specialized software. It is a useful tool for improving the visibility of the main subject of an image, or for removing any unwanted elements from the background of an image.</p>
           </div>
           <div class="service_ensure">

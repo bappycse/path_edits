@@ -11,7 +11,7 @@
                   <li><Nuxt-link to="/services/clipping-path">Clipping Path</Nuxt-link></li>
                   <li><Nuxt-link to="/services/background-removal">Background Removal</Nuxt-link></li>
                   <li><Nuxt-link to="/services/image-masking">Image Masking</Nuxt-link></li>
-                  <li><Nuxt-link to="/services/jewellery-service">Jewelry Photo</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/jewellery-service">Jewelery Photo</Nuxt-link></li>
                 </ul>
               </div>
             </div>

@@ -13,7 +13,7 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Color Change Services</h1>
-            <p class="service_price">Starting at <span>0.49$</span> per image</p>
+            <p class="service_price">Starting at <span>0.29$</span> per image</p>
             <p class="desc">Color Change Service is the most valuable service in photography. Shooting every product may increase the cost. Get single-color product images edited to multiple color variants at the lowest cost. We  do the best color change service and give your product photos to any colors according to their variants.</p>
           </div>
           <div class="service_ensure">

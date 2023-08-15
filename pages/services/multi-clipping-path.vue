@@ -13,7 +13,7 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Multi Clipping path services</h1>
-            <p class="service_price">Starting at <span>1.19$</span> per image</p>
+            <p class="service_price">Starting at <span>0.99$</span> per image</p>
             <p class="desc">Try our Multi-clipping Path service and make your images stand out! Get Quality Multi-Clipping Path, fast and affordable image editing services today. Transform your images and get maximum output. </p>
           </div>
           <div class="service_ensure">

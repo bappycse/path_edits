@@ -11,7 +11,7 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Clipping Path Services</h1>
-            <p class="service_price">Starting at <span>0.29$</span> per image</p>
+            <p class="service_price">Starting at <span>0.25$</span> per image</p>
             <p class="desc">Product photos shot on any background can be given a polished look by removing the unwanted background. Rely on our photo editing experts and receive the most immaculate images. </p>
           </div>
           <div class="service_ensure">

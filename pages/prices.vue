@@ -41,7 +41,7 @@
           <table class="text-center">
             <tr>
               <td>Basic Clipping Path</td>
-              <td class="price">0.29 USD per image</td>
+              <td class="price">0.25 USD per image</td>
             </tr>
             <tr>
               <td>Simple Clipping Path</td>
@@ -49,11 +49,11 @@
             </tr>
             <tr>
               <td>Medium Clipping Path</td>
-              <td class="price">2.99 USD per image</td>
+              <td class="price">1.99 USD per image</td>
             </tr>
             <tr>
               <td>Complex Clipping Path</td>
-              <td class="price">5.49 USD per image</td>
+              <td class="price">4.49 USD per image</td>
             </tr>
           </table>
         </div>
@@ -62,7 +62,7 @@
           <table class="text-center">
             <tr>
               <td>Basic Clipping Path</td>
-              <td class="price">0.29 USD per image</td>
+              <td class="price">0.25 USD per image</td>
             </tr>
             <tr>
               <td>Simple Clipping Path</td>
@@ -70,11 +70,11 @@
             </tr>
             <tr>
               <td>Medium Clipping Path</td>
-              <td class="price">2.99 USD per image</td>
+              <td class="price">1.99 USD per image</td>
             </tr>
             <tr>
               <td>Complex Clipping Path</td>
-              <td class="price">5.49 USD per image</td>
+              <td class="price">3.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -102,7 +102,7 @@
           <table class="text-center">
             <tr>
               <td>Basic Background Removal</td>
-              <td class="price">0.29 USD per image</td>
+              <td class="price">0.25 USD per image</td>
             </tr>
             <tr>
               <td>Simple Background Removal</td>
@@ -110,11 +110,11 @@
             </tr>
             <tr>
               <td>Medium Background Removal</td>
-              <td class="price">2.49 USD per image</td>
+              <td class="price">1.49 USD per image</td>
             </tr>
             <tr>
               <td>Complex Background Removal</td>
-              <td class="price">4.99 USD per image</td>
+              <td class="price">3.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -123,7 +123,7 @@
           <table class="text-center">
             <tr>
               <td>Basic Background Removal</td>
-              <td class="price">0.29 USD per image</td>
+              <td class="price">0.25 USD per image</td>
             </tr>
             <tr>
               <td>Simple Background Removal</td>
@@ -131,11 +131,11 @@
             </tr>
             <tr>
               <td>Medium Background Removal</td>
-              <td class="price">2.49 USD per image</td>
+              <td class="price">1.49 USD per image</td>
             </tr>
             <tr>
               <td>Complex Background Removal</td>
-              <td class="price">4.99 USD per image</td>
+              <td class="price">3.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -163,19 +163,19 @@
           <table class="text-center">
             <tr>
               <td>Basic Image Masking</td>
-              <td class="price">0.99 USD per image</td>
+              <td class="price">0.79 USD per image</td>
             </tr>
             <tr>
               <td>Simple Image Masking</td>
-              <td class="price">1.49 USD per image</td>
+              <td class="price">1.29 USD per image</td>
             </tr>
             <tr>
               <td>Medium Image Masking</td>
-              <td class="price">2.49 USD per image</td>
+              <td class="price">1.99 USD per image</td>
             </tr>
             <tr>
               <td>Complex Image Masking</td>
-              <td class="price">5.99 USD per image</td>
+              <td class="price">3.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -184,19 +184,19 @@
           <table class="text-center">
             <tr>
               <td>Basic Image Masking</td>
-              <td class="price">0.99 USD per image</td>
+              <td class="price">0.79 USD per image</td>
             </tr>
             <tr>
               <td>Simple Image Masking</td>
-              <td class="price">1.49 USD per image</td>
+              <td class="price">1.19 USD per image</td>
             </tr>
             <tr>
               <td>Medium Image Masking</td>
-              <td class="price">2.49 USD per image</td>
+              <td class="price">1.49 USD per image</td>
             </tr>
             <tr>
               <td>Complex Image Masking</td>
-              <td class="price">5.99 USD per image</td>
+              <td class="price">3.00 USD per image</td>
             </tr>
           </table>
         </div>
@@ -228,11 +228,11 @@
             </tr>
             <tr>
               <td>Simple Shadow Creation</td>
-              <td class="price">0.99 USD per image</td>
+              <td class="price">0.79 USD per image</td>
             </tr>
             <tr>
               <td>Medium Shadow Creation</td>
-              <td class="price">1.29 USD per image</td>
+              <td class="price">1.49 USD per image</td>
             </tr>
             <tr>
               <td>Complex Shadow Creation</td>
@@ -245,19 +245,19 @@
           <table class="text-center">
             <tr>
               <td>Basic Shadow Creation</td>
-              <td class="price">0.29 USD per image</td>
+              <td class="price">0.39 USD per image</td>
             </tr>
             <tr>
               <td>Simple Shadow Creation</td>
-              <td class="price">0.99 USD per image</td>
+              <td class="price">0.69 USD per image</td>
             </tr>
             <tr>
               <td>Medium Shadow Creation</td>
-              <td class="price">2.99 USD per image</td>
+              <td class="price">1.29 USD per image</td>
             </tr>
             <tr>
               <td>Complex Shadow Creation</td>
-              <td class="price">5.49 USD per image</td>
+              <td class="price">2.49 USD per image</td>
             </tr>
           </table>
         </div>
@@ -285,7 +285,7 @@
           <table class="text-center">
             <tr>
               <td>Basic Ghost Mannequin</td>
-              <td class="price">0.29 USD per image</td>
+              <td class="price">0.49 USD per image</td>
             </tr>
             <tr>
               <td>Simple Ghost Mannequin</td>
@@ -346,7 +346,7 @@
           <table class="text-center">
             <tr>
               <td>Basic Photo Retouching </td>
-              <td class="price">0.69 USD per image</td>
+              <td class="price">0.39 USD per image</td>
             </tr>
             <tr>
               <td>Simple Photo Retouching</td>
@@ -354,11 +354,11 @@
             </tr>
             <tr>
               <td>Medium Photo Retouching</td>
-              <td class="price">2.99 USD per image</td>
+              <td class="price">1.99 USD per image</td>
             </tr>
             <tr>
               <td>Complex Photo Retouching</td>
-              <td class="price">4.99 USD per image</td>
+              <td class="price">3.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -367,19 +367,19 @@
           <table class="text-center">
             <tr>
               <td>Basic Photo Retouching </td>
-              <td class="price">0.69 USD per image</td>
+              <td class="price">0.29 USD per image</td>
             </tr>
             <tr>
               <td>Simple Photo Retouching</td>
-              <td class="price">1.29 USD per image</td>
+              <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
               <td>Medium Photo Retouching</td>
-              <td class="price">2.99 USD per image</td>
+              <td class="price">1.49 USD per image</td>
             </tr>
             <tr>
               <td>Complex Photo Retouching</td>
-              <td class="price">4.99 USD per image</td>
+              <td class="price">2.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -407,7 +407,7 @@
           <table class="text-center">
             <tr>
               <td>Basic Color Changes</td>
-              <td class="price">0.49 USD per image</td>
+              <td class="price">0.29 USD per image</td>
             </tr>
             <tr>
               <td>Simple Color Changes</td>
@@ -428,19 +428,19 @@
           <table class="text-center">
             <tr>
               <td>Basic Color Changes</td>
-              <td class="price">0.49 USD per image</td>
+              <td class="price">0.25 USD per image</td>
             </tr>
             <tr>
               <td>Simple Color Changes</td>
-              <td class="price">0.89 USD per image</td>
+              <td class="price">0.59 USD per image</td>
             </tr>
             <tr>
               <td>Medium Color Changes</td>
-              <td class="price">1.29 USD per image</td>
+              <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
               <td>Complex Color Changes</td>
-              <td class="price">2.39 USD per image</td>
+              <td class="price">1.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -489,19 +489,19 @@
           <table class="text-center">
             <tr>
               <td>Basic Car Photo Editing</td>
-              <td class="price">0.29 USD per image</td>
+              <td class="price">0.25 USD per image</td>
             </tr>
             <tr>
               <td>Simple Car Photo Editing</td>
-              <td class="price">0.79 USD per image</td>
+              <td class="price">0.49 USD per image</td>
             </tr>
             <tr>
               <td>Medium Car Photo Editing</td>
-              <td class="price">1.49 USD per image</td>
+              <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
               <td>Complex Car Photo Editing</td>
-              <td class="price">2.99 USD per image</td>
+              <td class="price">1.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -529,19 +529,19 @@
           <table class="text-center">
             <tr>
               <td>Basic Multi Clipping Path</td>
-              <td class="price">1.19 USD per image</td>
+              <td class="price">0.99 USD per image</td>
             </tr>
             <tr>
               <td>Simple Multi Clipping Path</td>
-              <td class="price">2.29 USD per image</td>
+              <td class="price">1.99 USD per image</td>
             </tr>
             <tr>
               <td>Medium Multi Clipping Path</td>
-              <td class="price">3.49 USD per image</td>
+              <td class="price">2.49 USD per image</td>
             </tr>
             <tr>
               <td>Complex Multi Clipping Path</td>
-              <td class="price">5.99 USD per image</td>
+              <td class="price">4.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -550,19 +550,19 @@
           <table class="text-center">
             <tr>
               <td>Basic Multi Clipping Path</td>
-              <td class="price">1.19 USD per image</td>
+              <td class="price">0.79 USD per image</td>
             </tr>
             <tr>
               <td>Simple Multi Clipping Path</td>
-              <td class="price">2.29 USD per image</td>
+              <td class="price">1.49 USD per image</td>
             </tr>
             <tr>
               <td>Medium Multi Clipping Path</td>
-              <td class="price">3.49 USD per image</td>
+              <td class="price">2.19 USD per image</td>
             </tr>
             <tr>
               <td>Complex Multi Clipping Path</td>
-              <td class="price">5.99 USD per image</td>
+              <td class="price">3.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -594,15 +594,15 @@
             </tr>
             <tr>
               <td>Simple Jewellery Editing</td>
-              <td class="price">1.29 USD per image</td>
+              <td class="price">0.49 USD per image</td>
             </tr>
             <tr>
               <td>Medium Jewellery Editing</td>
-              <td class="price">2.39 USD per image</td>
+              <td class="price">1.99 USD per image</td>
             </tr>
             <tr>
               <td>Complex Jewellery Editing</td>
-              <td class="price">4.99 USD per image</td>
+              <td class="price">3.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -615,15 +615,15 @@
             </tr>
             <tr>
               <td>Simple Jewellery Editing</td>
-              <td class="price">1.29 USD per image</td>
+              <td class="price">0.49 USD per image</td>
             </tr>
             <tr>
               <td>Medium Jewellery Editing</td>
-              <td class="price">2.39 USD per image</td>
+              <td class="price">1.39 USD per image</td>
             </tr>
             <tr>
               <td>Complex Jewellery Editing</td>
-              <td class="price">4.99 USD per image</td>
+              <td class="price">3.29 USD per image</td>
             </tr>
           </table>
         </div>
@@ -651,7 +651,7 @@
           <table class="text-center">
             <tr>
               <td>Basic E-Commerce Editing</td>
-              <td class="price">0.29 USD per image</td>
+              <td class="price">0.25 USD per image</td>
             </tr>
             <tr>
               <td>Simple E-Commerce Editing</td>
@@ -659,7 +659,7 @@
             </tr>
             <tr>
               <td>Medium E-Commerce Editing</td>
-              <td class="price">1.79 USD per image</td>
+              <td class="price">1.49 USD per image</td>
             </tr>
             <tr>
               <td>Complex E-Commerce Editing</td>
@@ -672,7 +672,7 @@
           <table class="text-center">
             <tr>
               <td>Basic E-Commerce Editing</td>
-              <td class="price">0.29 USD per image</td>
+              <td class="price">0.25 USD per image</td>
             </tr>
             <tr>
               <td>Simple E-Commerce Editing</td>
@@ -680,11 +680,11 @@
             </tr>
             <tr>
               <td>Medium E-Commerce Editing</td>
-              <td class="price">1.79 USD per image</td>
+              <td class="price">1.29 USD per image</td>
             </tr>
             <tr>
               <td>Complex E-Commerce Editing</td>
-              <td class="price">3.99 USD per image</td>
+              <td class="price">2.99 USD per image</td>
             </tr>
           </table>
         </div>
@@ -712,11 +712,11 @@
           <table class="text-center">
             <tr>
               <td>Basic Logo & Vector design</td>
-              <td class="price">3.99 USD per image</td>
+              <td class="price">2.99 USD per image</td>
             </tr>
             <tr>
               <td>Simple Logo & Vector design</td>
-              <td class="price">7.99 USD per image</td>
+              <td class="price">5.99 USD per image</td>
             </tr>
             <tr>
               <td>Medium Logo & Vector design</td>
@@ -733,19 +733,19 @@
           <table class="text-center">
             <tr>
               <td>Basic Logo & Vector design</td>
-              <td class="price">3.99 USD per image</td>
+              <td class="price">1.99 USD per image</td>
             </tr>
             <tr>
               <td>Simple Logo & Vector design</td>
-              <td class="price">7.99 USD per image</td>
+              <td class="price">4.99 USD per image</td>
             </tr>
             <tr>
               <td>Medium Logo & Vector design</td>
-              <td class="price">16.99 USD per image</td>
+              <td class="price">14.99 USD per image</td>
             </tr>
             <tr>
               <td>Complex Logo & Vector design</td>
-              <td class="price">39.99 USD per image</td>
+              <td class="price">35.99 USD per image</td>
             </tr>
           </table>
         </div>

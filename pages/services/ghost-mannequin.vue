@@ -13,7 +13,7 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Ghost Mannequin services</h1>
-            <p class="service_price">Starting at <span>0.29$</span> per image</p>
+            <p class="service_price">Starting at <span>0.49$</span> per image</p>
             <p class="desc">Ghost Mannequin Service is a great solution for maximizing the visibility of your product images, making them look life-like and appealing to your customers, without compromising on quality.
             </p>
           </div>

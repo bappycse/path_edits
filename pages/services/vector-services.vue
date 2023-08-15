@@ -13,7 +13,7 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Vector Services</h1>
-            <p class="service_price">Starting at <span>3.99$</span> per image</p>
+            <p class="service_price">Starting at <span>2.99$</span> per image</p>
             <p class="desc">Take your designs to the next level with Vector Services. Our team of experts can transform any concept into a stunning graphic. We offer quick turnaround times, creative solutions, and affordable prices. Get a free quote today and see how we can help bring your vision to life.
             </p>
           </div>

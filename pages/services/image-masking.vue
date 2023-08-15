@@ -13,7 +13,7 @@
         <div class="col-md-6">
           <div class="service_banner_text">
             <h1>Image Masking Services</h1>
-            <p class="service_price">Starting at <span>0.29$</span> per image</p>
+            <p class="service_price">Starting at <span>0.79$</span> per image</p>
             <p class="desc">Transform your images into works of art with our image masking service - try it now!
             </p>
           </div>

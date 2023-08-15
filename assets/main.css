@@ -354,8 +354,8 @@ button {
 .text-bg a {
     margin: 20px 0;
     font-size: 16px;
-    background-color: #fff;
-    color: #000;
+    background-color: #291c97;
+    color: #fff;
     padding: 10px 0;
     width: 100%;
     max-width: 190px;
@@ -1084,11 +1084,6 @@ button {
     background: url("~/assets/images/ecommerce/banner/banner_before.jpg") no-repeat;
 }
 
-
-.service_banner_text {
-    margin-left: 20px;
-}
-
 .service_banner_text h1{
     font-size: 36px;
     line-height: 38px;
@@ -1125,6 +1120,7 @@ button {
     line-height: 27px;
     color: #2b1b9a;
     font-weight: 600;
+    padding-right: 10px;
 }
 
 .link a {
