@@ -10,19 +10,14 @@
           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
             <div class="full">
               <div class="center-desk">
+                <button class="show-menu btn btn-primary"  @click="showMobileMenu = !showMobileMenu">Show Menu</button>
                 <Nuxt-link  to="/"><img src="~assets/images/logo.png" alt="Photo Edits Logo"></Nuxt-link>
               </div>
             </div>
           </div>
           <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-            <nav class="navigation navbar navbar-expand-md navbar-dark ">
-              <button class="navbar-toggler" type="button" data-toggle="collapse"
-                      data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                      aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
               <div class="">
-                <nav>
+                <nav :class="{ active: showMobileMenu }">
                   <div class="menu-item">
                     <Nuxt-link to="/">Home</Nuxt-link>
                   </div>
@@ -88,7 +83,6 @@
                   </div>
                 </nav>
               </div>
-            </nav>
           </div>
         </div>
       </div>
@@ -97,6 +91,8 @@
 </template>
 
 <script setup>
+
+const showMobileMenu =  ref(false);
 const isOpen = ref(false);
 useSeoMeta({
   title: 'Photo Edits Center',

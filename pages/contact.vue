@@ -29,7 +29,7 @@
           </div>
 
           <h4 class="email">Call Us</h4>
-          <p>US: <a href=""></a></p>
+          <p>US:  <a href="">+1 (347) 612‑6179</a></p>
           <p>Bangladesh: <a href="">+880 1303355740</a></p>
         </div>
         <div class="col-md-5">
@@ -63,16 +63,16 @@
           <div class="contact-box">
             <img src="~/assets/images/home.png" width="80px" alt="">
             <p class="label-contact"> USA Office</p>
-            <p class="label-contact"> Address:,</p>
+            <p class="label-contact"> Address:139-25 88 Road Jamaica, NY 11435</p>
             <p class="label-contact">Email: info@photoeditscenter.com</p>
-            <p class="label-contact">Phone: </p>
+            <p class="label-contact">Phone: <a href="">+1 (347) 612‑6179</a></p>
           </div>
         </div>
         <div class="col-md-6 contact-box-area text-center">
           <div class="contact-box">
             <img src="~/assets/images/home.png" width="80px" alt="">
             <p class="label-contact">Bangladesh Office</p>
-            <p class="label-contact">Address:</p>
+            <p class="label-contact">Address: Dhaka Cantonment</p>
             <p class="label-contact">Email: info@photoeditscenter.com</p>
             <p class="label-contact">Phone: 880 1303355740</p>
           </div>

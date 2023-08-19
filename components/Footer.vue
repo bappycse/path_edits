@@ -4,18 +4,18 @@
       <div class="site-footer">
         <div class="container">
           <div class="row mb-5">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 col-sm-12">
               <div class="widget">
                 <h3 class="heading">Services</h3>
                 <ul class="links list-unstyled">
                   <li><Nuxt-link to="/services/clipping-path">Clipping Path</Nuxt-link></li>
                   <li><Nuxt-link to="/services/background-removal">Background Removal</Nuxt-link></li>
                   <li><Nuxt-link to="/services/image-masking">Image Masking</Nuxt-link></li>
-                  <li><Nuxt-link to="/services/jewellery-service">Jewelery Photo</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/jewellery-service">Jewellery Photo</Nuxt-link></li>
                 </ul>
               </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 col-sm-12">
               <div class="widget">
                 <h3 class="heading">Services</h3>
                 <ul class="links list-unstyled">
@@ -26,7 +26,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 col-sm-12">
               <div class="widget">
                 <h3 class="heading">Services</h3>
                 <ul class="links list-unstyled">
@@ -37,7 +37,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 col-sm-12">
               <div class="widget">
                 <h3 class="heading">Contact</h3>
                 <ul class="list-unstyled quick-info links">

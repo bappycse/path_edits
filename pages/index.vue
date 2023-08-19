@@ -8,14 +8,14 @@
   <section class="banner_main">
     <div class="container">
       <div class="row d_flex">
-        <div class="col-md-9">
+        <div class="col-sm-12 col-md-9">
           <div class="text-bg">
             <h1>Get your images edited by the most expert hands</h1>
             <p>Superb image editing services at your convenience, from simple background removal to complex clipping paths. Image editing services for photographers, eCommerce businesses, and product sellers at eCommerce platforms.</p>
             <a href="/get-quote">Get Started</a>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-12 col-md-3">
           <div class="text-img">
             <img src="~/assets/images/banner.png" alt="Banner Image">
           </div>
@@ -26,12 +26,12 @@
   <div class="services">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 order-last">
           <div>
             <img src="~/assets/images/virtual_photo.jpg" alt="Banner Image">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class=" col-md-6 col-sm-pull-6">
           <div class="starting_box">
             <h2>Get your images edited by the most expert hands</h2>
             <h3>Image editing services for photographers, eCommerce businesses, and product sellers at eCommerce platforms.</h3>
@@ -55,7 +55,7 @@
       </div>
       <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <div class="service-box service_box_1 d-flex">
+          <div class="service-box service_box_1 d-md-flex">
             <div class="image">
             </div>
             <div class="text">
@@ -66,7 +66,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <div class="service-box service_box_2 d-flex">
+          <div class="service-box service_box_2 d-md-flex">
             <div class="image">
             </div>
             <div class="text">
@@ -77,7 +77,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <div class="service-box service_box_3 d-flex">
+          <div class="service-box service_box_3 d-md-flex">
             <div class="image">
             </div>
             <div class="text">
@@ -88,7 +88,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <div class="service-box service_box_4 d-flex">
+          <div class="service-box service_box_4 d-md-flex">
             <div class="image">
             </div>
             <div class="text">
@@ -99,7 +99,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <div class="service-box service_box_5 d-flex">
+          <div class="service-box service_box_5 d-md-flex">
             <div class="image">
             </div>
             <div class="text">
@@ -110,7 +110,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <div class="service-box service_box_6 d-flex">
+          <div class="service-box service_box_6 d-md-flex">
             <div class="image">
             </div>
             <div class="text">
@@ -121,7 +121,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <div class="service-box service_box_7 d-flex">
+          <div class="service-box service_box_7 d-md-flex">
             <div class="image">
             </div>
             <div class="text">
@@ -132,7 +132,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <div class="service-box service_box_8 d-flex">
+          <div class="service-box service_box_8 d-md-flex">
             <div class="image">
             </div>
             <div class="text">
@@ -301,4 +301,5 @@
 .price_message_area h3 span {
   font-weight: 700;
 }
+
 </style>

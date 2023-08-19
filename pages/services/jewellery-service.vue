@@ -218,6 +218,7 @@
         </div>
         <a class="read_more" href="#">Read More</a>
       </div>
+
     </div>
   </div>
 </template>

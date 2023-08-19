@@ -1320,3 +1320,211 @@ ul.how_works li:before {
     background: #ccc;
     padding: 5px 10px;
 }
+.show-menu {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 320px)  {
+    .show-menu {
+       position: absolute;
+        left: 20px;
+        top: 20px;
+        display: block;
+    }
+    nav {
+        display: none !important;
+    }
+    nav.active {
+        display: block !important;
+    }
+
+    nav .menu-item .sub_item {
+        top: calc(100% + -307%);
+        left: 48%;
+    }
+    .center-desk {
+        text-align: center;
+    }
+    .banner_main {
+        padding: 90px 0 0;
+    }
+    .text-bg {
+        padding-right: 0;
+        text-align: center;
+    }
+    .text-bg h1 {
+        font-size: 34px;
+        line-height: 43px;
+    }
+    .text-bg p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .text-img{
+        text-align: center;
+        margin: 30px 0;
+    }
+    .text-img img{
+        display: inline-block;
+    }
+    .starting_box {
+        text-align: center;
+    }
+    .services {
+        padding: 20px 0;
+    }
+    .starting_box h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .starting_box h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .starting_box p.desc {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .service_area {
+        padding: 20px 0;
+    }
+    .service_area .image{
+        width: 100%;
+    }
+    .titlepage h2 {
+        font-size: 30px;
+        line-height: 35px;
+        padding-bottom: 0;
+    }
+    .service_area .titlepage p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .service_area .text {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .how_it_works, .why {
+        padding: 20px;
+    }
+    .price_message_area h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .service_banner {
+        padding: 90px 0 50px !important;
+    }
+    .service_banner_text {
+        padding: 20px;
+        text-align: center;
+    }
+    .service_banner_text h1 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .service_banner_text p.desc {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .section_space {
+        padding: 20px 0;
+    }
+    .page_subtitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .service_ensure link {
+        text-align: center;
+    }
+    .sample_box_image {
+        margin: 20px 0;
+    }
+
+    .sample_box_image img{
+        width: 100%;
+    }
+    .service_ensure {
+        padding: 20px 0;
+    }
+    .individual_banner {
+        padding: 90px 20px 10px !important;
+    }
+    .individual_banner h1 {
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+    .step_box_area {
+        padding: 10px;
+    }
+    .step_box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .step_box_area h3 {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 600;
+    }
+    .step_box_area p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about-us-header {
+        padding: 90px 0 30px;
+    }
+    .about-us-header h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .individual_banner p {
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+    .price_detail_area {
+        padding: 20px 0 0 !important;
+    }
+    .detail_info {
+        padding: 20px !important;
+        text-align: center;
+    }
+    .service-price-box {
+        padding: 10px !important;
+    }
+    .service-price-box h3 {
+        font-size: 25px !important;
+        padding: 10px 0;
+    }
+    .service-price-box table tr td {
+        padding: 5px 3px !important;
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    .price_detail_area .link {
+        padding: 20px 0 !important;
+    }
+    .price_message_area h3 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+    .service_banner h1 {
+        padding: 20px 0;
+        font-size: 35px !important;
+        line-height: 40px !important;
+        text-align: center;
+    }
+    .box-left {
+        padding-right: 0 !important;
+    }
+    .contact-quote {
+        text-align: center;
+    }
+    .heading-desc {
+        text-align: center;
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+}
