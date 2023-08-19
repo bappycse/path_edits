@@ -10,7 +10,7 @@
           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
             <div class="full">
               <div class="center-desk">
-                <button class="show-menu btn btn-primary"  @click="showMobileMenu = !showMobileMenu">Show Menu</button>
+                <button class="show-menu btn btn-primary"  @click="showMobileMenu = !showMobileMenu">Menu</button>
                 <Nuxt-link  to="/"><img src="~assets/images/logo.png" alt="Photo Edits Logo"></Nuxt-link>
               </div>
             </div>
@@ -25,7 +25,7 @@
                     <Nuxt-link to="/how-it-works">How It Works</Nuxt-link>
                   </div>
                   <div class="menu-item"  @mouseover="isOpen = true" @mouseleave="isOpen = false">
-                    <Nuxt-link to="/services/clipping-path">Services</Nuxt-link>
+                    <Nuxt-link to="/services/clipping-path">Services <Icon name="iconamoon:arrow-down-4-square-duotone" color="black" /></Nuxt-link>
                     <div class="sub_item" v-if="isOpen">
                       <div class="menu-item">
                         <Nuxt-link to="/services/clipping-path">Clipping Path </Nuxt-link>

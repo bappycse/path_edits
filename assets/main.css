@@ -1327,10 +1327,11 @@ ul.how_works li:before {
 
 @media only screen and (max-width: 600px) and (min-width: 320px)  {
     .show-menu {
-       position: absolute;
-        left: 20px;
-        top: 20px;
+        position: absolute;
+        left: 6px;
+        top: 31px;
         display: block;
+        background: #0056b3;
     }
     nav {
         display: none !important;
@@ -1340,8 +1341,8 @@ ul.how_works li:before {
     }
 
     nav .menu-item .sub_item {
-        top: calc(100% + -307%);
-        left: 48%;
+        top: calc(100% + -155px) !important;
+        left: 68%;
     }
     .center-desk {
         text-align: center;
