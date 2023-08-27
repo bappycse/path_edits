@@ -562,7 +562,7 @@ button {
 }
 
 .why .why-box h3 {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0 20px 0;
     font-size: 20px;
     line-height: 25px;
     color: #090808;
@@ -577,7 +577,7 @@ button {
     padding: 40px 20px 20px 20px;
     transition: ease-in all 0.5s;
     margin-bottom: 30px;
-    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    box-shadow: rgb(99 99 99 / 20%) 0 2px 8px 0;
 }
 
 .why .why-box p {
@@ -595,7 +595,7 @@ button {
     font-size: 16px;
     background-color: #090808;
     color: #fff;
-    padding: 10px 0px;
+    padding: 10px 0;
     width: 100%;
     max-width: 190px;
     display: flex;
@@ -644,7 +644,7 @@ button {
 
 .contact .main_form .contactus {
     border: #fff solid 1px;
-    padding: 0px 19px;
+    padding: 0 19px;
     margin-bottom: 20px;
     border-radius: 15px;
     width: 100%;
@@ -656,7 +656,7 @@ button {
 
 .contact .main_form .textarea {
     margin-bottom: 25px;
-    padding: 0px 19px;
+    padding: 0 19px;
     color: #999999 !important;
     width: 100%;
     border: #fff solid 1px;
@@ -721,7 +721,7 @@ button {
     color: #fff;
     font-size: 30px;
     line-height: 30px;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0 30px 0;
     display: inline-block;
     font-weight: bold;
 }
@@ -735,7 +735,7 @@ button {
 }
 
 .site-footer {
-    padding: 20px 0px;
+    padding: 20px 0;
     background: #fff;
 }
 
@@ -1125,7 +1125,7 @@ button {
 
 .link a {
     background: #67b6f4;
-    box-shadow: 0px 0px 0px -7px rgb(0 0 0 / 0%);
+    box-shadow: 0 0 0 -7px rgb(0 0 0 / 0%);
     color: #fff;
     font-size: 18px;
     line-height: 1.6;
@@ -1140,21 +1140,21 @@ button {
 }
 .link a.trial {
     background: #e2defc;
-    box-shadow: 0px 0px 0px -7px rgb(0 0 0 / 0%);
+    box-shadow: 0 0 0 -7px rgb(0 0 0 / 0%);
     color: #2b1b9a;
     text-transform: uppercase;
 }
 
 .link a.trial:hover {
     background: #e2defc;
-    box-shadow: 0px 0px 0px -7px rgb(0 0 0 / 0%);
+    box-shadow: 0 0 0 -7px rgb(0 0 0 / 0%);
     color: #2b1b9a;
     text-transform: uppercase;
 }
 
 .sample_box_image {
     background: #fff;
-    box-shadow: 0px 0px 35px -20px rgb(45 55 72 / 20%);
+    box-shadow: 0 0 35px -20px rgb(45 55 72 / 20%);
     border: 1px solid #ededed;
 }
 

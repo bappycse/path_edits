@@ -470,7 +470,7 @@ function formatBytes(bytes, decimals = 2) {
 }
 
 function freeTrial() {
-  $axios.post('http://api.photoedits.com/api/free-trial-info',  allInfo.value )
+  $axios.post('http://api.photoeditscenter.com/api/free-trial-info',  allInfo.value )
       .then((response) => {
         console.log(response);
       });
@@ -483,7 +483,7 @@ function freeTrial() {
   }
 
   console.log('fd',fd);
-  $axios.post('http://api.photoedits.com/api/free-trial', fd)
+  $axios.post('http://api.photoeditscenter.com/api/free-trial', fd)
       .then((response) => {
         if(response.status == 200){
           sendStatus.value = false;
