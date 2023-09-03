@@ -482,7 +482,7 @@ function freeTrial() {
     fd.append('image[]', imageFile.value[i]);
   }
 
-  console.log('fd',fd);
+
   $axios.post('http://api.photoeditscenter.com/api/free-trial', fd)
       .then((response) => {
         if(response.status == 200){
