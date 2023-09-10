@@ -412,6 +412,8 @@ const imageFile = ref("");
 const uploadFiles = ref([]);
 
 const onChange = (e) => {
+  status.value = false;
+  sendStatusDone.value = false;
   uploadFiles.value = [];
   if (e.target.files.length === 0) {
     imageFile.value = "";
@@ -626,6 +628,13 @@ select{
 
 .active {
   display: block;
+}
+
+.send-message {
+  background: #7035cf;
+  display: block;
+  color: #fff;
+  padding: 10px 5px;
 }
 
 </style>
