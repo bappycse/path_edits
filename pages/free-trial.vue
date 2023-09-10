@@ -106,7 +106,9 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <textarea class="form-control" v-model="allInfo.message" rows="5" id="comment" placeholder="Message" required></textarea>
+                    <label for="">Instruction
+                    </label>
+                    <textarea class="form-control" v-model="allInfo.note" rows="5" id="comment" placeholder="Tell us, what to do with your images." required></textarea>
                   </div>
                   <div class="col-sm-12 form-group">
                     <input type="file" @change="onChange" multiple>
@@ -166,7 +168,7 @@ const allInfo = ref({
   email: null,
   country: null,
   phone: null,
-  message: null,
+  note: null,
   files: null,
   serviceName: null,
   serviceType: "Free Trial"
@@ -177,7 +179,7 @@ const resetData = () => {
   allInfo.value.email = null;
   allInfo.value.country = null;
   allInfo.value.phone = null;
-  allInfo.value.message = null;
+  allInfo.value.note = null;
   allInfo.value.files = null;
 }
 
@@ -470,11 +472,6 @@ function formatBytes(bytes, decimals = 2) {
 }
 
 function freeTrial() {
-  $axios.post('https://api.photoeditscenter.com/api/free-trial-info',  allInfo.value )
-      .then((response) => {
-        console.log(response);
-      });
-
   sendStatus.value = true;
   status.value = true
   const fd = new FormData();
@@ -482,8 +479,14 @@ function freeTrial() {
     fd.append('image[]', imageFile.value[i]);
   }
 
-
-  $axios.post('https://api.photoeditscenter.com/api/free-trial', fd)
+  fd.append('name', allInfo.value.name);
+  fd.append('email', allInfo.value.email);
+  fd.append('country', allInfo.value.country);
+  fd.append('phone', allInfo.value.phone);
+  fd.append('note', allInfo.value.note);
+  fd.append('serviceName', allInfo.value.serviceName);
+  fd.append('serviceType', allInfo.value.serviceType);
+  $axios.post('http://api.photoeditscenter.com//api/free-trial', fd)
       .then((response) => {
         if(response.status == 200){
           sendStatus.value = false;
@@ -499,7 +502,7 @@ function freeTrial() {
 select{
   line-height: 1.2;
   width: 100%;
-  padding: 10px;
+  padding: 10px 10px 33px;
   background: #f8f8f9;
   border: none;
 }
