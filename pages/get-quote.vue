@@ -452,7 +452,7 @@ function freeTrial() {
   fd.append('note', allInfo.value.note);
   fd.append('serviceName', allInfo.value.serviceName);
   fd.append('serviceType', allInfo.value.serviceType);
-  $axios.post('http://api.photoeditscenter.com/api/free-trial', fd)
+  $axios.post('https://api.photoeditscenter.com/api/free-trial', fd)
       .then((response) => {
         if(response.status == 200){
           sendStatus.value = false;
