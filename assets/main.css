@@ -1328,10 +1328,10 @@ ul.how_works li:before {
 @media only screen and (max-width: 600px) and (min-width: 320px)  {
     .show-menu {
         position: absolute;
-        left: 6px;
-        top: 31px;
+        left: 15px;
+        top: 25px;
         display: block;
-        background: #0056b3;
+        background: transparent;
     }
     nav {
         display: none !important;

@@ -10,7 +10,10 @@
           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
             <div class="full">
               <div class="center-desk">
-                <button class="show-menu btn btn-primary"  @click="showMobileMenu = !showMobileMenu">Menu</button>
+                <button class="show-menu"  @click="menuChanged">
+                  <img style="display: block" :class="{ open: mobileMenu }"  src="~assets/images/menu.png" alt="">
+                  <img style="display: none"  :class="{ close: closeMenu }" src="~assets/images/close.png" alt="">
+                </button>
                 <Nuxt-link  to="/"><img src="~assets/images/logo.png" alt="Photo Edits Logo"></Nuxt-link>
               </div>
             </div>
@@ -93,7 +96,23 @@
 <script setup>
 
 const showMobileMenu =  ref(false);
+const mobileMenu =  ref(false);
+const closeMenu =  ref(false);
 const isOpen = ref(false);
+
+function menuChanged(event) {
+  if(!mobileMenu.value) {
+    showMobileMenu.value = true;
+    mobileMenu.value = true;
+    closeMenu.value = true;
+  }else {
+    showMobileMenu.value = false;
+    closeMenu.value = false;
+    mobileMenu.value = false;
+  }
+
+
+}
 useSeoMeta({
   title: 'Photo Edits Center',
   description: '',
@@ -103,6 +122,16 @@ useSeoMeta({
 <style scoped>
   .navbar {
     padding: 0;
+  }
+  .open {
+    display: none !important;
+  }
+  .close {
+    display: block !important;
+  }
+  .center-desk button img {
+    width: 41px;
+    height: 41px;
   }
   nav {
     display: flex;
