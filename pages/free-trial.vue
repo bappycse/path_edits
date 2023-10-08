@@ -22,91 +22,93 @@
                 <form @submit.prevent="freeTrial" enctype="multipart/form-data">
                   <div class="row">
                     <div class="col-sm-6">
-                      <input type="text" v-model="allInfo.name" class="form-control" placeholder="Name" required>
+                      <label for=""><b>Name</b><span>*</span></label>
+                      <input type="text" v-model="allInfo.name" class="form-control" required>
                     </div>
                     <div class="col-sm-6">
-                      <input type="email" v-model="allInfo.email" class="form-control" placeholder="Email" required>
+                      <label for=""><b>Email</b><span>*</span></label>
+                      <input type="email" v-model="allInfo.email" class="form-control" required>
                     </div>
                     <div class="col-sm-6">
-                      <input type="number" v-model="allInfo.phone" class="form-control" placeholder="Phone" required>
+                      <label for=""><b>Phone</b><span>*</span></label>
+                      <input type="number" v-model="allInfo.phone" class="form-control" required>
                     </div>
                     <div class="col-sm-6 from-group">
-                      <select v-model="allInfo.country">
+                      <label for=""><b>Country</b><span>*</span></label>
+                      <select v-model="allInfo.country" required>
                         <option value="US" selected="selected">Us</option>
                         <option v-for="country in countryList" :key="country">{{ country }}</option>
                       </select>
                     </div>
                   </div>
-                  <div class="service-box col-md-12">
                     <div class="row">
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="clipping_path">
-                          Clipping Path
+                          Clipping Path<span>*</span>
                           <input type="radio" checked id="clipping_path" v-model="allInfo.serviceName" name="service_name" value="Clipping Path">
                         </label>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="background_remove">Background Remove
                           <input type="radio" id="background_remove" v-model="allInfo.serviceName" name="service_name" value="Background Remove">
                         </label>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="image_masking">Image Masking
                           <input type="radio" id="image_masking" v-model="allInfo.serviceName" name="service_name" value="Image Masking">
                         </label>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="shadow_creation">Shadow Creation
                           <input type="radio" id="shadow_creation" v-model="allInfo.serviceName" name="service_name" value="Shadow Creation">
                         </label>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="ghost_mannequin">Ghost Mannequin
                           <input type="radio" id="ghost_mannequin" v-model="allInfo.serviceName" name="service_name" value="Ghost Mannequin">
                         </label>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="photo_retouching">Photo Retouching
                           <input type="radio" id="photo_retouching" v-model="allInfo.serviceName" name="service_name" value="Photo Retouching">
                         </label>
                       </div>
-                      <div class="col-md-4">
-                        <label for="color_change">Color Change
+                      <div class="col-md-4 service-box">
+                        <label for="color_change ">Color Change
                           <input type="radio" id="color_change" v-model="allInfo.serviceName" name="service_name" value="Color Change">
                         </label>
 
                       </div>
-                      <div class="col-md-4">
-                        <label for="car_photo_editing">Car Photo Editing
+                      <div class="col-md-4 service-box">
+                        <label for="car_photo_editing ">Car Photo Editing
                           <input type="radio" id="car_photo_editing" v-model="allInfo.serviceName" name="service_name" value="Car Photo Editing">
                         </label>
 
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="multi_clipping_path">Multi Clipping path
                           <input type="radio" id="multi_clipping_path" v-model="allInfo.serviceName" name="service_name" value="Multi Clipping path">
                         </label>
 
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="jewelry_photo_editing">Jewelry Photo Editing
                           <input type="radio" id="jewelry_photo_editing" v-model="allInfo.serviceName" name="service_name" value="Jewelry Photo Editing">
                         </label>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="ecommerce_service">E-Commerce Service
                           <input type="radio" id="ecommerce_service" v-model="allInfo.serviceName" name="service_name" value="E-Commerce Service">
                         </label>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 service-box">
                         <label for="vector_service">Vector Services
                           <input type="radio" id="vector_service" v-model="allInfo.serviceName" name="service_name" value="Vector Services">
                         </label>
                       </div>
                     </div>
-                  </div>
                   <div class="form-group">
-                    <label for="">Instruction
+                    <label for=""><b>Instruction</b>
                     </label>
                     <textarea class="form-control" v-model="allInfo.note" rows="5" id="comment" placeholder="Tell us, what to do with your images." required></textarea>
                   </div>

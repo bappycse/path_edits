@@ -21,51 +21,72 @@
                 <form @submit.prevent="freeTrial" enctype="multipart/form-data">
                   <div class="row">
                     <div class="col-sm-6">
-                      <input type="text" v-model="allInfo.name" class="form-control" placeholder="Name" required>
+                      <label for=""><b>Name</b><span>*</span></label>
+                      <input type="text" v-model="allInfo.name" class="form-control" required>
                     </div>
                     <div class="col-sm-6">
-                      <input type="email" v-model="allInfo.email" class="form-control" placeholder="Email" required>
+                      <label for=""><b>Email</b><span>*</span></label>
+                      <input type="email" v-model="allInfo.email" class="form-control" required>
                     </div>
                     <div class="col-sm-6">
-                      <input type="number" v-model="allInfo.phone" class="form-control" placeholder="Phone" required>
+                      <label for=""><b>Phone</b><span>*</span></label>
+                      <input type="number" v-model="allInfo.phone" class="form-control" required>
                     </div>
                     <div class="col-sm-6 from-group">
-                      <select v-model="allInfo.country">
+                      <label for=""><b>Country</b><span>*</span></label>
+                      <select v-model="allInfo.country" required>
                         <option value="US" selected="selected">Us</option>
                         <option v-for="country in countryList" :key="country">{{ country }}</option>
                       </select>
                     </div>
+                    <div class="col-sm-4 from-group">
+                      <label for=""><b>Quantity</b><span>*</span></label>
+                      <input type="number" v-model="allInfo.quantity" class="form-control" required>
+                    </div>
+                    <div class="col-sm-4 from-group">
+                      <label for=""><b>Delivery Time</b><span>*</span></label>
+                      <select v-model="allInfo.deliveryTime" required>
+                        <option v-for="times in deliveryTimes" :key="deliveryTime">{{ times }}</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-4 from-group">
+                      <label for=""><b>Return File Format</b><span>*</span></label>
+                      <select v-model="allInfo.returnType" required>
+                        <option v-for="type in returnTypes" :key="returnType">{{ type }}</option>
+                      </select>
+                    </div>
                   </div>
-                  <div class="service-box col-md-12">
-                    <div class="row">
-                      <div v-for="services in allServices" class="col-md-4">
+                  <div class="row">
+                      <div v-for="services in allServices" class="col-md-4 service-box">
                         <label for="services.name">
                           {{services.name}}
                           <input type="checkbox" id="{{services.name}}" v-model="services.selected">
                         </label>
-                      </div>
+                  </div>
+                    <div class="col-sm-12 from-group">
+                        <label for=""><b>File Link</b></label>
+                        <input type="text" v-model="allInfo.fileLink" class="form-control" placeholder="">
                     </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="">Instruction
-                    </label>
-                    <textarea class="form-control" v-model="allInfo.note" rows="5" id="comment" placeholder="Tell us, what to do with your images." required></textarea>
-                  </div>
-                  <div class="col-sm-12 form-group">
-                    <input type="file" @change="onChange" multiple>
-                  </div>
-                  <div class="col-sm-12 form-group">
-                    <table class="table">
-                      <tr v-for="imageFile in uploadFiles" key="imageFile.name">
-                        <td>{{imageFile.name}}</td> <td>File Size {{ formatBytes(imageFile.size) }}</td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="form-group">
-                    <button class="btn btn-block" :class="{ 'in-active': status }" type="submit" >Send Now!</button>
-                    <img src="~/assets/images/mail_send.gif" class="in-active" :class="{ 'active': sendStatus }"   alt="Send Mail Image" >
-                    <p class="text-center in-active " :class="{ 'send-message': sendStatusDone}" >Quotation Send Successfully</p>
-                  </div>
+                    <div class="form-group">
+                      <label for=""><b>Instruction</b>
+                      </label>
+                      <textarea class="form-control" v-model="allInfo.note" rows="5" id="comment" placeholder="Tell us, what to do with your images." required></textarea>
+                    </div>
+                    <div class="col-sm-12 form-group">
+                      <input type="file" @change="onChange" multiple>
+                    </div>
+                    <div class="col-sm-12 form-group">
+                      <table class="table">
+                        <tr v-for="imageFile in uploadFiles" key="imageFile.name">
+                          <td>{{imageFile.name}}</td> <td>File Size {{ formatBytes(imageFile.size) }}</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-block" :class="{ 'in-active': status }" type="submit" >Send Now!</button>
+                      <img src="~/assets/images/mail_send.gif" class="in-active" :class="{ 'active': sendStatus }"   alt="Send Mail Image" >
+                      <p class="text-center in-active " :class="{ 'send-message': sendStatusDone}" >Quotation Send Successfully</p>
+                    </div></div>
                 </form>
               </div>
               <div class="col-lg-4">
@@ -119,6 +140,22 @@ const allServices = [
   { id: 12, name: "Vector Services", selected: false },
 ];
 
+const deliveryTimes = [
+  "12 Hours",
+  "24 Hours",
+  "36 Hours",
+  "48 Hours",
+  "72 Hours",
+  "Flexible",
+];
+
+const returnTypes = [
+  "JPG",
+  "PNG",
+  "PSD",
+  "TIFF",
+];
+
 const serviceData = ref([]);
 
 const selectedNames = () => {
@@ -139,6 +176,10 @@ const allInfo = ref({
   phone: null,
   note: null,
   files: null,
+  quantity: null,
+  deliveryTime: null,
+  returnType: null,
+  fileLink: null,
   serviceName: serviceData,
   serviceType: "Commercial",
 });
@@ -150,6 +191,8 @@ const resetData = () => {
   allInfo.value.phone = null;
   allInfo.value.note = null;
   allInfo.value.files = null;
+  allInfo.value.quantity = null;
+  allInfo.value.deliveryTime = null;
 }
 
 const status = ref(false);
@@ -453,6 +496,10 @@ function freeTrial() {
   fd.append('phone', allInfo.value.phone);
   fd.append('note', allInfo.value.note);
   fd.append('serviceName', allInfo.value.serviceName);
+  fd.append('quantity', allInfo.value.quantity);
+  fd.append('deliveryTime', allInfo.value.deliveryTime);
+  fd.append('returnType', allInfo.value.returnType);
+  fd.append('fileLink', allInfo.value.fileLink);
   fd.append('serviceType', allInfo.value.serviceType);
   $axios.post('https://api.photoeditscenter.com/api/free-trial', fd)
       .then((response) => {
@@ -584,14 +631,6 @@ select{
   margin-right: 20px;
 }
 
-.service-box {
-  margin-bottom: 20px;
-}
-
-.service-box .col-md-4 {
-  padding: 0;
-}
-
 .service-box label {
   font-size: 14px;
   margin: 10px 0;
@@ -636,5 +675,7 @@ select{
   color: #fff;
   padding: 10px 5px;
 }
+
+
 
 </style>
