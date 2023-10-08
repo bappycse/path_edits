@@ -155,10 +155,9 @@ const returnTypes = [
   "PSD",
   "TIFF",
 ];
-
 const serviceData = ref([]);
 
-const selectedNames = () => {
+const selectedServices = () => {
   for (let i = 0; i < allServices.length; i++) {
     if (allServices[i].selected === true) {
       serviceData.value.push(allServices[i].name);
@@ -193,6 +192,9 @@ const resetData = () => {
   allInfo.value.files = null;
   allInfo.value.quantity = null;
   allInfo.value.deliveryTime = null;
+  allInfo.value.returnType = null;
+  allInfo.value.serviceName = null;
+  allInfo.value.fileLink = null;
 }
 
 const status = ref(false);
@@ -455,6 +457,7 @@ const imageFile = ref("");
 const uploadFiles = ref([]);
 
 const onChange = (e) => {
+  selectedServices();
   status.value = false;
   sendStatusDone.value = false;
   uploadFiles.value = [];
@@ -501,7 +504,7 @@ function freeTrial() {
   fd.append('returnType', allInfo.value.returnType);
   fd.append('fileLink', allInfo.value.fileLink);
   fd.append('serviceType', allInfo.value.serviceType);
-  $axios.post('https://api.photoeditscenter.com/api/free-trial', fd)
+  $axios.post('https://photoeditscenter.com/api/free-trial', fd)
       .then((response) => {
         if(response.status == 200){
           sendStatus.value = false;
