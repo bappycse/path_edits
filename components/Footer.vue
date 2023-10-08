@@ -50,7 +50,6 @@
                     <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><Icon name="bxl:tumblr" color="black" /></a>
                     <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><Icon name="bxl:pinterest" color="black" /></a>
                     <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><Icon name="bxl:instagram" color="black" /></a>
-                    <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><Icon name="iconamoon:arrow-down-4-square-duotone" color="black" /></a>
                   </li>
                 </ul>
               </div>

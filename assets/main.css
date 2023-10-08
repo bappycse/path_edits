@@ -1351,6 +1351,7 @@ ul.how_works li:before {
     border: none !important;
 }
 
+
 @media only screen and (max-width: 600px) and (min-width: 320px)  {
     .show-menu {
         position: absolute;

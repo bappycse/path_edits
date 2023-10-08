@@ -181,6 +181,7 @@ useSeoMeta({
     background: #0056b3;
     border-radius: 4px;
     color: #fff;
+    padding: 7px;
   }
 
   .free_trial a{
