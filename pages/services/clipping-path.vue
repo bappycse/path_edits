@@ -17,7 +17,7 @@
           <div class="service_ensure">
             <p>within 12-24 hrs delivery</p>
             <p>1000 images per day</p>
-            <p>satisfaction guaranteed</p>
+            <p>Satisfaction 100 % Guaranteed</p>
           </div>
           <div class="link">
             <a href="/get-quote" class="btn">Get Quote</a>
@@ -41,8 +41,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 details_content">
-          <h3 class="text-center page_subtitle">Why Photo Edit Center?</h3>
-          <p>You are reading this article probably because you also need clipping path services. If this is so, and you are in search of the best clipping path service, then you should definitely consider Photo Edit Center. We are an experienced clipping path service company working in this industry for more than 7 years. We offer high-quality services that can help you achieve the perfect image. Our team of highly skilled and experienced editors is well equipped with the latest tools and techniques to deliver the best results. We also offer a wide range of other photo editing services that can be availed at very reasonable rates. So, if you want to achieve the perfect image, then do not hesitate to contact us.</p>
+          <h3 class="text-center page_subtitle">Why Photo Edits Center?</h3>
+          <p>You are reading this article probably because you also need clipping path services. If this is so, and you are in search of the best clipping path service, then you should definitely consider Photo Edits Center. We are an experienced clipping path service company working in this industry for more than 7 years. We offer high-quality services that can help you achieve the perfect image. Our team of highly skilled and experienced editors is well equipped with the latest tools and techniques to deliver the best results. We also offer a wide range of other photo editing services that can be availed at very reasonable rates. So, if you want to achieve the perfect image, then do not hesitate to contact us.</p>
         </div>
       </div>
     </div>

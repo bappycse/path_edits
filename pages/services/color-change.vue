@@ -19,7 +19,7 @@
           <div class="service_ensure">
             <p>within 12-24 hrs delivery</p>
             <p> 1000 images per day</p>
-            <p>satisfaction guaranteed</p>
+            <p>Satisfaction 100 % Guaranteed</p>
           </div>
           <div class="link">
             <a href="/get-quote" class="btn">Get Quote</a>
@@ -43,18 +43,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 details_content">
-          <h3 class="text-center page_subtitle">Why Photo Edit Center?</h3>
+          <h3 class="text-center page_subtitle">Why Photo Edits Center?</h3>
           <ul class="advantages_list">
             <li><b>Use Advanced Technology: </b></li>
-            <li>Photo Edit Center offers an extensive selection of professional tools to help you achieve the perfect look for your images. Their intuitive interface and comprehensive suite of editing tools make it easy to get the results you want. The software also offers an impressive selection of preset filters and effects, which can be customized to your needs.</li>
+            <li>Photo Edits Center offers an extensive selection of professional tools to help you achieve the perfect look for your images. Their intuitive interface and comprehensive suite of editing tools make it easy to get the results you want. The software also offers an impressive selection of preset filters and effects, which can be customized to your needs.</li>
             <li><b>Experienced designers: </b></li>
-            <li>Photo Edit Center is full of Experienced designers. They are well-versed in the use of image editing software and can take your image to the next level with their knowledge and skill. They can also help you achieve the desired result more quickly and efficiently, as well as suggest creative ideas for your project. Experienced designers are especially valuable if you are looking to make significant changes to your images.</li>
+            <li>Photo Edits Center is full of Experienced designers. They are well-versed in the use of image editing software and can take your image to the next level with their knowledge and skill. They can also help you achieve the desired result more quickly and efficiently, as well as suggest creative ideas for your project. Experienced designers are especially valuable if you are looking to make significant changes to your images.</li>
             <li><b>Cost-saving service: </b></li>
             <li>
-              The Photo Edit Center offers a cost-saving image editing service that helps businesses reduce costs by enabling them to quickly and easily edit images. This service is ideal for businesses that require high-quality images to be edited quickly and efficiently, as it allows them to outsource the task to the Photo Edit Center.
+              The Photo Edits Center offers a cost-saving image editing service that helps businesses reduce costs by enabling them to quickly and easily edit images. This service is ideal for businesses that require high-quality images to be edited quickly and efficiently, as it allows them to outsource the task to the Photo Edits Center.
             </li>
             <li><b>Quick Yet Quality Service</b></li>
-            <li>The Photo Edit Center offers a quick yet quality image editing service for all your photo needs. Their experienced editors are able to provide a range of services from basic adjustments such as color, contrast, and brightness, to more complex tasks such as photo retouching and composition.</li>
+            <li>The Photo Edits Center offers a quick yet quality image editing service for all your photo needs. Their experienced editors are able to provide a range of services from basic adjustments such as color, contrast, and brightness, to more complex tasks such as photo retouching and composition.</li>
           </ul>
         </div>
       </div>
@@ -169,7 +169,7 @@
       <div class="row">
         <div class="col-md-12">
           <h3 class="text-center page_subtitle">What is the Cost of Color Change Service?</h3>
-          <p>The pricing policy of the Photo Edit Center is focused on small and medium businesses. We try to provide services at an affordable price. The cost of color change services varies from one provider to the next and is largely dependent on the project and the services that are requested. Generally speaking, the cost of color change services is based on the amount of material and labor involved in the job, as well as the complexity of the project. </p>
+          <p>The pricing policy of the Photo Edits Center is focused on small and medium businesses. We try to provide services at an affordable price. The cost of color change services varies from one provider to the next and is largely dependent on the project and the services that are requested. Generally speaking, the cost of color change services is based on the amount of material and labor involved in the job, as well as the complexity of the project. </p>
         </div>
       </div>
     </div>
@@ -181,7 +181,7 @@
           <h3 class="text-center page_subtitle">What are the Advantages?</h3>
           <ul class="advantages_list">
             <li><b>Multiple Use of the Same Image: </b></li>
-            <li>For eCommerce businesses, it is important to display products of the same design with different colors. So, it becomes hard for them to shoot each product separately. It is better to edit the pictures and change the color by taking the color change service from Photo Edit Center. We provide accurate and natural-looking color-change service.</li>
+            <li>For eCommerce businesses, it is important to display products of the same design with different colors. So, it becomes hard for them to shoot each product separately. It is better to edit the pictures and change the color by taking the color change service from Photo Edits Center. We provide accurate and natural-looking color-change service.</li>
             <li><b>Improved Look:</b></li>
             <li>color correction services can give a huge boost to the overall look of an image. By using various tools such as levels, curves, hue/saturation, vibrance, and color balance, an artist can make subtle and drastic changes to an image in order to achieve the desired look. Whether it's making a dull image more vibrant or making an overly saturated image look more natural, color correction can give an improved look to any photograph.</li>
             <li><b>More Accurate Color:  </b></li>

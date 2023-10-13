@@ -20,7 +20,7 @@
       <div class="row">
         <div class="col-md-12">
           <p>People sometimes wish they need to have a photo studio to edit their images in-house. But it’s important to think that, it’s not so easy to have it. It consumes a lot of time and needs a bunch of money to prepare that studio. Also, they need to have good experts too on photo editing to full fill their needs…</p>
-          <p>Photo edit center offer them to use us as their own photo editing studio with very low pricing for all kinds of services like clipping path service, image masking, photo retouching, shadow services, neck joint service, raster to vector, color correction, and other image editing services.</p>
+          <p>Photo Edits Center offer them to use us as their own photo editing studio with very low pricing for all kinds of services like clipping path service, image masking, photo retouching, shadow services, neck joint service, raster to vector, color correction, and other image editing services.</p>
         </div>
       </div>
     </div>
@@ -762,7 +762,7 @@
       <div class="row">
         <div class="col-md-12">
           <h2 class="text-center">Payment Methods We accept</h2>
-          <p><span>“Photo Edit center”</span> has unique options for their consumers who need to pay for the services requested. The consumer simply fills out a form providing the contact name, company info with full address and call number. After a batch of work is finished, an invoice is sent to the customer. The customer will have to pay by PayPal, Credits or Debit Cards, and Wire/Bank Transfer. The invoice that’s sent by <span>“Photo Edit Center</span>” is easy and contains all the information necessary for making the payment.</p>
+          <p><span>“Photo Edits center”</span> has unique options for their consumers who need to pay for the services requested. The consumer simply fills out a form providing the contact name, company info with full address and call number. After a batch of work is finished, an invoice is sent to the customer. The customer will have to pay by PayPal or Payoneer, Credits or Debit Cards, and Wire/Bank Transfer. The invoice that’s sent by <span>“Photo Edits Center</span>” is easy and contains all the information necessary for making the payment.</p>
         </div>
       </div>
     </div>

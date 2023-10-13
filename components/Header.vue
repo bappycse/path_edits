@@ -59,7 +59,7 @@
                         <Nuxt-link to="/services/multi-clipping-path">Multi Clipping Path</Nuxt-link>
                       </div>
                       <div class="menu-item">
-                        <Nuxt-link to="/services/jewellery-service">Jewellery Photo Editing</Nuxt-link>
+                        <Nuxt-link to="/services/jewelry-service">Jewelry Photo Editing</Nuxt-link>
                       </div>
                       <div class="menu-item">
                         <Nuxt-link to="/services/ecommerce-service">E-Commerce Service</Nuxt-link>

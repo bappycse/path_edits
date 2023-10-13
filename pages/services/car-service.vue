@@ -19,7 +19,7 @@
           <div class="service_ensure">
             <p>within 12-24 hrs delivery</p>
             <p> 1000 images per day</p>
-            <p>satisfaction guaranteed</p>
+            <p>Satisfaction 100 % Guaranteed</p>
           </div>
           <div class="link">
             <a href="/get-quote" class="btn">Get Quote</a>
@@ -44,16 +44,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 details_content">
-          <h3 class="text-center page_subtitle">Why Photo Edit Center?</h3>
+          <h3 class="text-center page_subtitle">Why Photo Edits Center?</h3>
           <ul class="advantages_list">
             <li><b>Use Advanced Technology:</b></li>
-            <li>Photo Edit Center offers an extensive selection of professional tools to help you achieve the perfect look for your images. Their intuitive interface and comprehensive suite of editing tools make it easy to get the results you want. The software also offers an impressive selection of preset filters and effects, which can be customized to your needs.</li>
+            <li>Photo Edits Center offers an extensive selection of professional tools to help you achieve the perfect look for your images. Their intuitive interface and comprehensive suite of editing tools make it easy to get the results you want. The software also offers an impressive selection of preset filters and effects, which can be customized to your needs.</li>
             <li><b>Experienced designers:</b></li>
-            <li>Photo Edit Center is full of Experienced designers. They are well-versed in the use of image editing software and can take your image to the next level with their knowledge and skill. They can also help you achieve the desired result more quickly and efficiently, as well as suggest creative ideas for your project. Experienced designers are especially valuable if you are looking to make significant changes to your images.</li>
+            <li>Photo Edits Center is full of Experienced designers. They are well-versed in the use of image editing software and can take your image to the next level with their knowledge and skill. They can also help you achieve the desired result more quickly and efficiently, as well as suggest creative ideas for your project. Experienced designers are especially valuable if you are looking to make significant changes to your images.</li>
             <li><b>Cost-saving service:</b></li>
-            <li>The Photo Edit Center offers a cost-saving image editing service that helps businesses reduce costs by enabling them to quickly and easily edit images. This service is ideal for businesses that require high-quality images to be edited quickly and efficiently, as it allows them to outsource the task to the Photo Edit Center.</li>
+            <li>The Photo Edits Center offers a cost-saving image editing service that helps businesses reduce costs by enabling them to quickly and easily edit images. This service is ideal for businesses that require high-quality images to be edited quickly and efficiently, as it allows them to outsource the task to the Photo Edits Center.</li>
             <li><b>Quick Yet Quality Service</b></li>
-            <li>The Photo Edit Center offers a quick yet quality image editing service for all your photo needs. Their experienced editors are able to provide a range of services from basic adjustments such as color, contrast, and brightness, to more complex tasks such as photo retouching and composition.</li>
+            <li>The Photo Edits Center offers a quick yet quality image editing service for all your photo needs. Their experienced editors are able to provide a range of services from basic adjustments such as color, contrast, and brightness, to more complex tasks such as photo retouching and composition.</li>
           </ul>
         </div>
       </div>
@@ -164,7 +164,7 @@
       <div class="row">
         <div class="col-md-12">
           <h3 class="text-center page_subtitle">What is the Cost of Car Photo Editing?</h3>
-          <p>The cost of car photo editing from Photo Edit Center will depend on the scope of the project and the complexity of the edits required. Photo Edit Center offers a variety of packages to meet the needs of all customers, so you are sure to find something to fit your budget. We have a dynamic and flexible pricing policy for bulk orders.</p>
+          <p>The cost of car photo editing from Photo Edits Center will depend on the scope of the project and the complexity of the edits required. Photo Edits Center offers a variety of packages to meet the needs of all customers, so you are sure to find something to fit your budget. We have a dynamic and flexible pricing policy for bulk orders.</p>
         </div>
       </div>
     </div>

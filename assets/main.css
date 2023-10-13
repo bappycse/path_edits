@@ -1023,8 +1023,8 @@ button {
     background: url("~/assets/images/photo_retouch/banner/banner_after.jpg") no-repeat;
 }
 
-.service_banner_image_jewellery {
-    background: url("~/assets/images/jewellery/banner/banner_after.jpg") no-repeat;
+.service_banner_image_jewelery {
+    background: url("~/assets/images/jewelry/banner/banner_after.jpg") no-repeat;
 }
 .service_banner_image_color_change {
     background: url("~/assets/images/color_change/banner/banner_after.jpg") no-repeat;
@@ -1065,8 +1065,8 @@ button {
     background: url("~/assets/images/photo_retouch/banner/banner_before.jpg") no-repeat;
 }
 
-.service_banner_image_jewellery:hover {
-    background: url("~/assets/images/jewellery/banner/banner_before.jpg") no-repeat;
+.service_banner_image_jewelery:hover {
+    background: url("~/assets/images/jewelry/banner/banner_before.jpg") no-repeat;
 }
 
 .service_banner_image_color_change:hover {

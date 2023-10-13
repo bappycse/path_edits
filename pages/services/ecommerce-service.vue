@@ -20,7 +20,7 @@
           <div class="service_ensure">
             <p>within 12-24 hrs delivery</p>
             <p> 1000 images per day</p>
-            <p>satisfaction guaranteed</p>
+            <p>Satisfaction 100 % Guaranteed</p>
           </div>
           <div class="link">
             <a href="/get-quote" class="btn">Get Quote</a>
