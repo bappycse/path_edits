@@ -1358,6 +1358,20 @@ ul.how_works li:before {
     border-radius: 4px;
 
 }
+
+.logo_section a.router-link-exact-active {
+    padding: 7px 15px;
+    color: #fff;
+    background: transparent !important;
+    border-radius: 4px;
+
+}
+.site-footer a.router-link-exact-active {
+    padding: 0 0;
+    color: #333;
+    background: transparent !important;
+}
+
 .logo_section a.router-link-exact-active {
     padding: 7px 15px;
     color: #fff;
