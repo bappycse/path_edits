@@ -134,7 +134,7 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <h3 class="page_subtitle">
-            Some of our clipping path samples
+            Some of our Jewelry Photo Editing samples
           </h3>
         </div>
       </div>
@@ -171,17 +171,7 @@
     </div>
 
   </section>
-  <section class="service_cost">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h3>What is the cost of color change services?</h3>
-          <p>Since changing the color of the image is not too difficult, but needs actual technique to be accurate the color with the object.
-            Clipping Path Experts only charge you 85¢ per image for changing the color as your requirement.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+
 </template>
 <script setup>
 
