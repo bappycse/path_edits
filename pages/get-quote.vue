@@ -16,8 +16,28 @@
         <div class="col-md-12">
           <div class="main wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <div class="row">
-              <div class="col-lg-8 left">
-                <h3>Get A Quote</h3>
+              <div class="col-lg-5">
+                <div class="right">
+                  <h2>Your Satisfaction is Our Success. Let’s proceed to fulfill your goal. Fill up the form. You’ll receive our response within few minutes. </h2>
+                  <div class="contact-box text-center" >
+                    <img src="~/assets/images/home.png" width="80px" alt="">
+                    <p><b>USA Office:</b></p>
+                    <p class="label-contact"> Address:139-25 88 Road Jamaica, NY 11435</p>
+                    <p class="label-contact">Email: info@photoeditscenter.com</p>
+                    <p class="label-contact">Phone: <a href="">+1 (347) 612‑6179</a></p>
+                  </div>
+                  <div class="contact-box text-center">
+                    <img src="~/assets/images/home.png" width="80px" alt="">
+                    <p class="label-contact">Bangladesh Office</p>
+                    <p class="label-contact">Address: Dhaka Cantonment</p>
+                    <p class="label-contact">Email: info@photoeditscenter.com</p>
+                    <p class="label-contact">Phone: 880 1303355740</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 left">
+                <h3>Get your custom quote
+                       in 30 Minutes</h3>
                 <form @submit.prevent="freeTrial" enctype="multipart/form-data">
                   <div class="row">
                     <div class="col-sm-6">
@@ -88,30 +108,6 @@
                       <p class="text-center in-active " :class="{ 'send-message': sendStatusDone}" >Quotation Send Successfully</p>
                     </div></div>
                 </form>
-              </div>
-              <div class="col-lg-4">
-                <div class="right">
-                  <h4>Contact Information</h4>
-                  <div class="info d-flex align-items-center">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <span>Dhaka Cantonment,<br>Dhaka 1206</span>
-                  </div>
-                  <div class="info d-flex align-items-center">
-                    <i class="fa fa-chrome" aria-hidden="true"></i>
-                    <span><b>Phone: </b>+880 1303355740</span>
-                  </div>
-                  <div class="info d-flex align-items-center">
-                    <span><b>Email: </b> <a href="mailto:info@photoeditscenter.com">info@photoeditscenter.com</a></span>
-                  </div>
-                  <div class="info d-flex align-items-center social-link">
-                    <a href="https://www.facebook.com/PhotoEditsCenter" target="_blank"><Icon name="bxl:facebook-square" color="black" /></a>
-                    <a href="https://twitter.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="black" /></a>
-                    <a href="https://www.linkedin.com/in/photo-edits-center-b5591524a" target="_blank"><Icon name="bxl:linkedin-square" color="black" /></a>
-                    <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><Icon name="bxl:tumblr" color="black" /></a>
-                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><Icon name="bxl:pinterest" color="black" /></a>
-                    <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><Icon name="bxl:instagram" color="black" /></a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -504,7 +500,7 @@ function freeTrial() {
   fd.append('returnType', allInfo.value.returnType);
   fd.append('fileLink', allInfo.value.fileLink);
   fd.append('serviceType', allInfo.value.serviceType);
-  $axios.post('https://api.photoeditscenter.com/api/free-trial', fd)
+  $axios.post('http://local.api.com/api/free-trial', fd)
       .then((response) => {
         if(response.status == 200){
           sendStatus.value = false;
@@ -531,7 +527,6 @@ select{
 .contact .heading {
   visibility: visible;
   animation-name: fadeInUp;
-  background: #6371a287;
   padding: 50px;
   color: #fff;
 }
@@ -591,7 +586,6 @@ select{
 }
 
 .contact .main .right {
-  background: #6371a287;
   background-size: cover;
   padding: 40px;
   color: #ffffff;

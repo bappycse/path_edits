@@ -42,7 +42,6 @@
                       <div class="menu-item">
                         <Nuxt-link to="/services/shadow-creation">Shadow Creation</Nuxt-link>
                       </div>
-
                       <div class="menu-item">
                         <Nuxt-link to="/services/ghost-mannequin">Ghost Mannequin</Nuxt-link>
                       </div>
@@ -148,7 +147,7 @@ useSeoMeta({
   }
 
   nav .menu-item a {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
   }
 

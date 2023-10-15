@@ -17,8 +17,27 @@
         <div class="col-md-12">
           <div class="main wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
             <div class="row">
-              <div class="col-lg-8 left">
-                <h3>FREE TRIALS</h3>
+              <div class="col-lg-5">
+                <div class="right">
+                  <h2>Your Satisfaction is Our Success. Let’s proceed to fulfill your goal. Fill up the form. You’ll receive our response within few minutes. </h2>
+                  <div class="contact-box text-center" >
+                    <img src="~/assets/images/home.png" width="80px" alt="">
+                    <p><b>USA Office:</b></p>
+                    <p class="label-contact"> Address:139-25 88 Road Jamaica, NY 11435</p>
+                    <p class="label-contact">Email: info@photoeditscenter.com</p>
+                    <p class="label-contact">Phone: <a href="">+1 (347) 612‑6179</a></p>
+                  </div>
+                  <div class="contact-box text-center">
+                    <img src="~/assets/images/home.png" width="80px" alt="">
+                    <p class="label-contact">Bangladesh Office</p>
+                    <p class="label-contact">Address: Dhaka Cantonment</p>
+                    <p class="label-contact">Email: info@photoeditscenter.com</p>
+                    <p class="label-contact">Phone: 880 1303355740</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 left">
+                <h3>Get in Touch</h3>
                 <form @submit.prevent="freeTrial" enctype="multipart/form-data">
                   <div class="row">
                     <div class="col-sm-6">
@@ -41,72 +60,72 @@
                       </select>
                     </div>
                   </div>
-                    <div class="row">
-                      <div class="col-md-4 service-box">
-                        <label for="clipping_path">
-                          Clipping Path<span>*</span>
-                          <input type="radio" checked id="clipping_path" v-model="allInfo.serviceName" name="service_name" value="Clipping Path">
-                        </label>
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="background_remove">Background Remove
-                          <input type="radio" id="background_remove" v-model="allInfo.serviceName" name="service_name" value="Background Remove">
-                        </label>
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="image_masking">Image Masking
-                          <input type="radio" id="image_masking" v-model="allInfo.serviceName" name="service_name" value="Image Masking">
-                        </label>
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="shadow_creation">Shadow Creation
-                          <input type="radio" id="shadow_creation" v-model="allInfo.serviceName" name="service_name" value="Shadow Creation">
-                        </label>
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="ghost_mannequin">Ghost Mannequin
-                          <input type="radio" id="ghost_mannequin" v-model="allInfo.serviceName" name="service_name" value="Ghost Mannequin">
-                        </label>
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="photo_retouching">Photo Retouching
-                          <input type="radio" id="photo_retouching" v-model="allInfo.serviceName" name="service_name" value="Photo Retouching">
-                        </label>
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="color_change ">Color Change
-                          <input type="radio" id="color_change" v-model="allInfo.serviceName" name="service_name" value="Color Change">
-                        </label>
-
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="car_photo_editing ">Car Photo Editing
-                          <input type="radio" id="car_photo_editing" v-model="allInfo.serviceName" name="service_name" value="Car Photo Editing">
-                        </label>
-
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="multi_clipping_path">Multi Clipping path
-                          <input type="radio" id="multi_clipping_path" v-model="allInfo.serviceName" name="service_name" value="Multi Clipping path">
-                        </label>
-
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="jewelry_photo_editing">Jewelry Photo Editing
-                          <input type="radio" id="jewelry_photo_editing" v-model="allInfo.serviceName" name="service_name" value="Jewelry Photo Editing">
-                        </label>
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="ecommerce_service">E-Commerce Service
-                          <input type="radio" id="ecommerce_service" v-model="allInfo.serviceName" name="service_name" value="E-Commerce Service">
-                        </label>
-                      </div>
-                      <div class="col-md-4 service-box">
-                        <label for="vector_service">Vector Services
-                          <input type="radio" id="vector_service" v-model="allInfo.serviceName" name="service_name" value="Vector Services">
-                        </label>
-                      </div>
+                  <div class="row">
+                    <div class="col-md-4 service-box">
+                      <label for="clipping_path">
+                        Clipping Path
+                        <input type="radio" checked id="clipping_path" v-model="allInfo.serviceName" name="service_name" value="Clipping Path">
+                      </label>
                     </div>
+                    <div class="col-md-4 service-box">
+                      <label for="background_remove">Background Remove
+                        <input type="radio" id="background_remove" v-model="allInfo.serviceName" name="service_name" value="Background Remove">
+                      </label>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="image_masking">Image Masking
+                        <input type="radio" id="image_masking" v-model="allInfo.serviceName" name="service_name" value="Image Masking">
+                      </label>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="shadow_creation">Shadow Creation
+                        <input type="radio" id="shadow_creation" v-model="allInfo.serviceName" name="service_name" value="Shadow Creation">
+                      </label>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="ghost_mannequin">Ghost Mannequin
+                        <input type="radio" id="ghost_mannequin" v-model="allInfo.serviceName" name="service_name" value="Ghost Mannequin">
+                      </label>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="photo_retouching">Photo Retouching
+                        <input type="radio" id="photo_retouching" v-model="allInfo.serviceName" name="service_name" value="Photo Retouching">
+                      </label>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="color_change ">Color Change
+                        <input type="radio" id="color_change" v-model="allInfo.serviceName" name="service_name" value="Color Change">
+                      </label>
+
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="car_photo_editing ">Car Photo Editing
+                        <input type="radio" id="car_photo_editing" v-model="allInfo.serviceName" name="service_name" value="Car Photo Editing">
+                      </label>
+
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="multi_clipping_path">Multi Clipping path
+                        <input type="radio" id="multi_clipping_path" v-model="allInfo.serviceName" name="service_name" value="Multi Clipping path">
+                      </label>
+
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="jewelry_photo_editing">Jewelry Photo Editing
+                        <input type="radio" id="jewelry_photo_editing" v-model="allInfo.serviceName" name="service_name" value="Jewelry Photo Editing">
+                      </label>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="ecommerce_service">E-Commerce Service
+                        <input type="radio" id="ecommerce_service" v-model="allInfo.serviceName" name="service_name" value="E-Commerce Service">
+                      </label>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <label for="vector_service">Vector Services
+                        <input type="radio" id="vector_service" v-model="allInfo.serviceName" name="service_name" value="Vector Services">
+                      </label>
+                    </div>
+                  </div>
                   <div class="form-group">
                     <label for=""><b>Instruction</b>
                     </label>
@@ -128,30 +147,6 @@
                     <p class="text-center in-active " :class="{ 'send-message': sendStatusDone}" >Quotation Send Successfully</p>
                   </div>
                 </form>
-              </div>
-              <div class="col-lg-4">
-                <div class="right">
-                  <h4>Contact Information</h4>
-                  <div class="info d-flex align-items-center">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <span>Dhaka Cantonment,<br>Dhaka 1206</span>
-                  </div>
-                  <div class="info d-flex align-items-center">
-                    <i class="fa fa-chrome" aria-hidden="true"></i>
-                    <span><b>Phone: </b>+880 1303355740</span>
-                  </div>
-                  <div class="info d-flex align-items-center">
-                    <span><b>Email: </b> <a href="mailto:info@photoeditscenter.com">info@photoeditscenter.com</a></span>
-                  </div>
-                  <div class="info d-flex align-items-center social-link">
-                    <a href="https://www.facebook.com/PhotoEditsCenter" target="_blank"><Icon name="bxl:facebook-square" color="black" /></a>
-                    <a href="https://twitter.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="black" /></a>
-                    <a href="https://www.linkedin.com/in/photo-edits-center-b5591524a" target="_blank"><Icon name="bxl:linkedin-square" color="black" /></a>
-                    <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><Icon name="bxl:tumblr" color="black" /></a>
-                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><Icon name="bxl:pinterest" color="black" /></a>
-                    <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><Icon name="bxl:instagram" color="black" /></a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -515,7 +510,6 @@ select{
 .contact .heading {
   visibility: visible;
   animation-name: fadeInUp;
-  background: #6371a287;
   padding: 50px;
   color: #fff;
 }
@@ -575,7 +569,6 @@ select{
 }
 
 .contact .main .right {
-  background: #6371a287;
   background-size: cover;
   padding: 40px;
   color: #ffffff;

@@ -6,34 +6,33 @@
           <div class="row mb-5">
             <div class="col-md-6 col-lg-3 col-sm-12">
               <div class="widget">
+                <h3 class="heading">Get Started</h3>
+                <ul class="links list-unstyled">
+                  <li><Nuxt-link to="/">Home</Nuxt-link></li>
+                  <li><Nuxt-link to="/get-quote">Get Quote</Nuxt-link></li>
+                  <li><Nuxt-link to="/free-trial">Free Trial</Nuxt-link></li>
+                  <li><Nuxt-link to="/prices">Prices</Nuxt-link></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 col-sm-12">
+              <div class="widget">
                 <h3 class="heading">Services</h3>
                 <ul class="links list-unstyled">
                   <li><Nuxt-link to="/services/clipping-path">Clipping Path</Nuxt-link></li>
                   <li><Nuxt-link to="/services/background-removal">Background Removal</Nuxt-link></li>
                   <li><Nuxt-link to="/services/image-masking">Image Masking</Nuxt-link></li>
-                  <li><Nuxt-link to="/services/jewellery-service">Jewellery Photo</Nuxt-link></li>
+                  <li><Nuxt-link to="/services/jewelry-service">Jewelry Photo</Nuxt-link></li>
                 </ul>
               </div>
             </div>
             <div class="col-md-6 col-lg-3 col-sm-12">
               <div class="widget">
-                <h3 class="heading">Services</h3>
+                <h3 class="heading">Company</h3>
                 <ul class="links list-unstyled">
-                  <li><Nuxt-link to="/services/shadow-creation">Shadow Creation</Nuxt-link></li>
-                  <li><Nuxt-link to="/services/ghost-mannequin">Ghost Mannequin</Nuxt-link></li>
-                  <li><Nuxt-link to="/services/photo-retouch">Photo Retouch</Nuxt-link></li>
-                  <li><Nuxt-link to="/services/ecommerce-service">E-Commerce Service</Nuxt-link></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3 col-sm-12">
-              <div class="widget">
-                <h3 class="heading">Services</h3>
-                <ul class="links list-unstyled">
-                  <li><Nuxt-link to="/services/color-change">Color Change</Nuxt-link></li>
-                  <li><Nuxt-link to="/services/car-service">Car Photo Editing</Nuxt-link></li>
-                  <li><Nuxt-link to="/services/multi-clipping-path">Multi Clipping Path</Nuxt-link></li>
-                  <li><Nuxt-link to="/services/vector-services">Vector Services</Nuxt-link></li>
+                  <li><Nuxt-link to="/about-us">About Us</Nuxt-link></li>
+                  <li><Nuxt-link to="/contacts">Contact Us</Nuxt-link></li>
+                  <li><Nuxt-link to="/how-it-works">How It Works</Nuxt-link></li>
                 </ul>
               </div>
             </div>
@@ -55,19 +54,31 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <p>© 2023 All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+    <section class="footer-bottom-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer-bottom">
+              <p class="float-left">© 2020 - {{ currentYear }} Path Edits Center. All rights reserved.</p>
+              <p class="">
+                <a href="/terms-and-conditions"> TERMS & CONDITIONS |</a>
+                <a href="/privacy-policy"> PRIVACY POLICY |</a>
+                <a href="/faq"> FAQ</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
   </footer>
 </template>
 
 <script setup>
+const currentYear = new Date().getFullYear();
 </script>
 
 <style scoped>

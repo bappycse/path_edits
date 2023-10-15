@@ -48,7 +48,7 @@
         <div class="col-md-12">
           <div class="titlepage service_area_constent">
             <h2>Services We Provide</h2>
-            <p>Path Edits Center – An outsourcing company providing all kinds of image editing services including background removal, image masking, ghost mannequin effect, shadow creation, color correction, and eCommerce Product photo editing service.
+            <p>Photo Edits Center – An outsourcing company providing all kinds of image editing services including background removal, image masking, ghost mannequin effect, shadow creation, color correction, and eCommerce Product photo editing service.
             </p>
           </div>
         </div>

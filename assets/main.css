@@ -755,8 +755,26 @@ button {
 }
 
 .site-footer {
-    padding: 50px 0 50px;
+    padding: 50px 0 20px;
     background: #d5e2ec;
+}
+
+.footer-bottom-area {
+    background: #3431a7;
+    padding: 30px 0 15px;
+    color: #fff;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom a{
+    color: #fff;
+}
+
+.footer-bottom p {
 }
 
 .service_area {
@@ -1158,6 +1176,11 @@ button {
     border: 1px solid #ededed;
 }
 
+.sample_box_image img{
+    min-width: 300px;
+    min-height: 180px;
+}
+
 .how_it_works ol.how_works li {
     font-size: 16px;
     line-height: 26px;
@@ -1241,8 +1264,8 @@ ul.how_works li:before {
     font-weight: 600;
 }
 .individual_banner p {
-    font-size: 30px;
-    line-height: 45px;
+    font-size: 21px;
+    line-height: 29px;
     font-weight: 600;
     color: #2b1b9a;
 }
@@ -1352,41 +1375,95 @@ ul.how_works li:before {
 }
 
 .router-link-exact-active {
-    padding: 7px 15px;
-    color: #fff;
-    background: #0056b3;
-    border-radius: 4px;
+    color: #2b1b9a;
 
 }
 
 .logo_section a.router-link-exact-active {
-    padding: 7px 15px;
-    color: #fff;
+    color: #2b1b9a;
     background: transparent !important;
-    border-radius: 4px;
 
 }
 .site-footer a.router-link-exact-active {
     padding: 0 0;
     color: #333;
+    font-weight: 600;
     background: transparent !important;
 }
 
 .logo_section a.router-link-exact-active {
-    padding: 7px 15px;
     color: #fff;
     background: transparent !important;
-    border-radius: 4px;
 
 }
 
 .free_trial a.router-link-exact-active {
-    padding: 7px 15px !important;
-    color: #fff !important;
+    color: #2b1b9a !important;
     border-radius: 4px;
 
 }
 
+.service_example .details p, .details_content p , .service_cost p{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.advantages_list li {
+    font-size: 16px;
+    color: #333;
+}
+
+.how_works li {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+.advantages_list li b {
+    font-size: 23px;
+    color: #333;
+}
+
+.site-footer .heading {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.site-footer li a {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contact .main h3 {
+    font-size: 25px !important;
+    line-height: 33px !important;
+    font-weight: 600 !important;
+}
+
+.main .right h2 {
+    font-size: 23px;
+    line-height: 39px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main .right .contact-box {
+    margin-bottom: 30px;
+}
+
+.main .right .contact-box img {
+    margin-bottom: 20px;
+}
+
+.main .right .contact-box p {
+    color: #333;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 @media only screen and (max-width: 600px) and (min-width: 320px)  {
     .show-menu {
@@ -1590,5 +1667,19 @@ ul.how_works li:before {
         text-align: center;
         font-size: 16px !important;
         line-height: 20px !important;
+    }
+    .contact .heading h2 {
+        font-size: 36px;
+    }
+    .contact{
+        padding-bottom: 0 !important;
+    }
+    .contact .heading p {
+        font-size: 20px;
+    }
+    .footer-bottom {
+        font-size: 12px;
+        display: inherit;
+        text-align: center;
     }
 }
