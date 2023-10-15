@@ -30,7 +30,7 @@
               <div class="widget">
                 <h3 class="heading">Company</h3>
                 <ul class="links list-unstyled">
-                  <li><Nuxt-link to="/about-us">About Us</Nuxt-link></li>
+                  <li><Nuxt-link to="/about">About Us</Nuxt-link></li>
                   <li><Nuxt-link to="/contact">Contact Us</Nuxt-link></li>
                   <li><Nuxt-link to="/how-it-works">How It Works</Nuxt-link></li>
                 </ul>

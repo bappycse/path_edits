@@ -14,7 +14,7 @@
       </div>
     </div>
   </section>
-  <section class="step_box_area p-50">
+  <section class="step_box_area p-50 even_step">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -32,7 +32,7 @@
       </div>
     </div>
   </section>
-  <section class="step_box_area p-50">
+  <section class="step_box_area p-50 odd_step">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -50,7 +50,7 @@
       </div>
     </div>
   </section>
-  <section class="step_box_area p-50">
+  <section class="step_box_area p-50 even_step">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -68,7 +68,7 @@
       </div>
     </div>
   </section>
-  <section class="step_box_area p-50">
+  <section class="step_box_area p-50 odd_step">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -86,7 +86,7 @@
       </div>
     </div>
   </section>
-  <section class="step_box_area p-50">
+  <section class="step_box_area p-50 even_step">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
