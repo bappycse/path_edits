@@ -31,7 +31,7 @@
                 <h3 class="heading">Company</h3>
                 <ul class="links list-unstyled">
                   <li><Nuxt-link to="/about-us">About Us</Nuxt-link></li>
-                  <li><Nuxt-link to="/contacts">Contact Us</Nuxt-link></li>
+                  <li><Nuxt-link to="/contact">Contact Us</Nuxt-link></li>
                   <li><Nuxt-link to="/how-it-works">How It Works</Nuxt-link></li>
                 </ul>
               </div>
@@ -43,12 +43,12 @@
                   <li class="email"><a href="#">info@photoeditscenter.com</a></li>
                   <li class="address"><a href="#">Dhaka Bangladesh</a></li>
                   <li class="social-link">
-                    <a href="https://www.facebook.com/PhotoEditsCenter" target="_blank"><Icon name="bxl:facebook-square" color="black" /></a>
-                    <a href="https://twitter.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="black" /></a>
-                    <a href="https://www.linkedin.com/in/photo-edits-center-b5591524a" target="_blank"><Icon name="bxl:linkedin-square" color="black" /></a>
-                    <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><Icon name="bxl:tumblr" color="black" /></a>
-                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><Icon name="bxl:pinterest" color="black" /></a>
-                    <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><Icon name="bxl:instagram" color="black" /></a>
+                    <a href="https://www.facebook.com/PhotoEditsCenter" target="_blank"><Icon name="bxl:facebook-square" color="#007bff" /></a>
+                    <a href="https://twitter.com/photoeditscenter" target="_blank"><Icon name="bxl:twitter" color="#007bff" /></a>
+                    <a href="https://www.linkedin.com/in/photo-edits-center-b5591524a" target="_blank"><Icon name="bxl:linkedin-square" color="#007bff" /></a>
+                    <a href="https://www.tumblr.com/settings/blog/photoediscenter" target="_blank"><Icon name="bxl:tumblr" color="#007bff" /></a>
+                    <a href="https://www.pinterest.com/photoeditscenter" target="_blank"><Icon name="bxl:pinterest" color="#007bff" /></a>
+                    <a href="https://www.instagram.com/photoeditscenter/" target="_blank"><Icon name="bxl:instagram" color="#007bff" /></a>
                   </li>
                 </ul>
               </div>
@@ -89,6 +89,7 @@ const currentYear = new Date().getFullYear();
 .social-link a {
   margin: 0 8px 8px 0;
   color: #007bff;
+  font-size: 35px;
 }
 
 </style>
