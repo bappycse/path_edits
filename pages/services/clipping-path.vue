@@ -41,8 +41,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 details_content">
-          <h3 class="text-center page_subtitle">Why Photo Edits Center?</h3>
-          <p>You are reading this article probably because you also need clipping path services. If this is so, and you are in search of the best clipping path service, then you should definitely consider Photo Edits Center. We are an experienced clipping path service company working in this industry for more than 7 years. We offer high-quality services that can help you achieve the perfect image. Our team of highly skilled and experienced editors is well equipped with the latest tools and techniques to deliver the best results. We also offer a wide range of other photo editing services that can be availed at very reasonable rates. So, if you want to achieve the perfect image, then do not hesitate to contact us.</p>
+          <h3 class="text-center page_subtitle">Why Pix Fax?</h3>
+          <p>You are reading this article probably because you also need clipping path services. If this is so, and you are in search of the best clipping path service, then you should definitely consider Pix Fax. We are an experienced clipping path service company working in this industry for more than 7 years. We offer high-quality services that can help you achieve the perfect image. Our team of highly skilled and experienced editors is well equipped with the latest tools and techniques to deliver the best results. We also offer a wide range of other photo editing services that can be availed at very reasonable rates. So, if you want to achieve the perfect image, then do not hesitate to contact us.</p>
         </div>
       </div>
     </div>
@@ -179,8 +179,8 @@
   </section>
 </template>
 <script setup>
-const title = ref('Photo Edits Center | Clipping Path');
-const description = ref('Photo Edits Center provided clipping path related services');
+const title = ref(' Pix Fax | Clipping Path');
+const description = ref(' Pix Fax provided clipping path related services');
 const imgPreUrl = "~/assets/images/";
 
 </script>

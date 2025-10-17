@@ -44,16 +44,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 details_content">
-          <h3 class="text-center page_subtitle">Why Photo Edits Center?</h3>
+          <h3 class="text-center page_subtitle">Why Pix Fax?</h3>
           <ul class="advantages_list">
             <li><b>Use Advanced Technology:</b></li>
-            <li>Photo Edits Center offers an extensive selection of professional tools to help you achieve the perfect look for your images. Their intuitive interface and comprehensive suite of editing tools make it easy to get the results you want. The software also offers an impressive selection of preset filters and effects, which can be customized to your needs.</li>
+            <li> Pix Fax offers an extensive selection of professional tools to help you achieve the perfect look for your images. Their intuitive interface and comprehensive suite of editing tools make it easy to get the results you want. The software also offers an impressive selection of preset filters and effects, which can be customized to your needs.</li>
             <li><b>Experienced designers:</b></li>
-            <li>Photo Edits Center is full of Experienced designers. They are well-versed in the use of image editing software and can take your image to the next level with their knowledge and skill. They can also help you achieve the desired result more quickly and efficiently, as well as suggest creative ideas for your project. Experienced designers are especially valuable if you are looking to make significant changes to your images.</li>
+            <li> Pix Fax is full of Experienced designers. They are well-versed in the use of image editing software and can take your image to the next level with their knowledge and skill. They can also help you achieve the desired result more quickly and efficiently, as well as suggest creative ideas for your project. Experienced designers are especially valuable if you are looking to make significant changes to your images.</li>
             <li><b>Cost-saving service:</b></li>
-            <li>The Photo Edits Center offers a cost-saving image editing service that helps businesses reduce costs by enabling them to quickly and easily edit images. This service is ideal for businesses that require high-quality images to be edited quickly and efficiently, as it allows them to outsource the task to the Photo Edits Center.</li>
+            <li>The Pix Fax offers a cost-saving image editing service that helps businesses reduce costs by enabling them to quickly and easily edit images. This service is ideal for businesses that require high-quality images to be edited quickly and efficiently, as it allows them to outsource the task to the Pix Fax.</li>
             <li><b>Quick Yet Quality Service</b></li>
-            <li>The Photo Edits Center offers a quick yet quality image editing service for all your photo needs. Their experienced editors are able to provide a range of services from basic adjustments such as color, contrast, and brightness, to more complex tasks such as photo retouching and composition.</li>
+            <li>The Pix Fax offers a quick yet quality image editing service for all your photo needs. Their experienced editors are able to provide a range of services from basic adjustments such as color, contrast, and brightness, to more complex tasks such as photo retouching and composition.</li>
           </ul>
         </div>
       </div>
@@ -187,8 +187,8 @@
   </section>
 </template>
 <script setup>
-const title = ref('Photo Edits Center | Multi Clipping path services');
-const description = ref('Photo Edits Center provided clipping path related services and Multi Clipping path services');
+const title = ref(' Pix Fax | Multi Clipping path services');
+const description = ref(' Pix Fax provided clipping path related services and Multi Clipping path services');
 
 </script>
 

@@ -178,7 +178,7 @@
   </section>
 </template>
 <script setup>
-const title = ref('Photo Edits Center | E-Commerce Service');
-const description = ref('Photo Edits Center provided clipping path related service and E-Commerce Services');
+const title = ref(' Pix Fax | E-Commerce Service');
+const description = ref(' Pix Fax provided clipping path related service and E-Commerce Services');
 
 </script>

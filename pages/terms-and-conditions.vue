@@ -8,8 +8,8 @@
       <div class="row text-center">
         <div class="col-md-12">
           <div class="">
-            <h1>Photo Edits Center Terms and Conditions</h1>
-            <p>By accessing and using Photo Edits Center Image Editing Service website, you agree to the following terms and conditions:</p>
+            <h1> Pix Fax Terms and Conditions</h1>
+            <p>By accessing and using Pix Fax Image Editing Service website, you agree to the following terms and conditions:</p>
           </div>
         </div>
       </div>
@@ -21,12 +21,12 @@
         <div class="col-md-12">
           <div class="step_box">
             <h2>1. Acceptance of Terms</h2>
-            <p>By using the services provided by Photo Edits Center, you agree to be bound by these terms and conditions. If you do not agree to these terms, please refrain from using our services.
+            <p>By using the services provided by Pix Fax, you agree to be bound by these terms and conditions. If you do not agree to these terms, please refrain from using our services.
             </p>
           </div>
           <div class="step_box">
             <h2>2. Services</h2>
-            <p>Photo Edits Center offers photo editing services, including but not limited to retouching, color correction, background removal, headshot editing, photo manipulation, car photo editing, cropping, and digital enhancements. The specifics of each service may vary, and you should refer to individual service descriptions for details.
+            <p> Pix Fax offers photo editing services, including but not limited to retouching, color correction, background removal, headshot editing, photo manipulation, car photo editing, cropping, and digital enhancements. The specifics of each service may vary, and you should refer to individual service descriptions for details.
             </p>
           </div>
           <div class="step_box">
@@ -43,7 +43,7 @@
           </div>
           <div class="step_box">
             <h2>5. Turnaround Time</h2>
-            <p>Photo Edits Center strives to provide timely services. However, turnaround times may vary depending on the complexity of the editing requested and current workloads. We will provide estimated delivery times, but these are not guaranteed.</p>
+            <p> Pix Fax strives to provide timely services. However, turnaround times may vary depending on the complexity of the editing requested and current workloads. We will provide estimated delivery times, but these are not guaranteed.</p>
           </div>
           <div class="step_box">
             <h2>6. Quality Assurance</h2>
@@ -57,12 +57,12 @@
             <h2>8. Copyright</h2>
             <ul>
               <li>You retain ownership of the original images you submit for editing.</li>
-              <li>You grant Photo Edits Center a limited license to use the edited images for promotional purposes on our website and social media channels while respecting your privacy and the confidentiality of sensitive materials.</li>
+              <li>You grant Pix Fax a limited license to use the edited images for promotional purposes on our website and social media channels while respecting your privacy and the confidentiality of sensitive materials.</li>
             </ul>
           </div>
           <div class="step_box">
             <h2>9.Termination</h2>
-            <p>Photo Edits Center reserves the right to terminate or suspend your access to our services at our discretion if you violate these terms and conditions.</p>
+            <p> Pix Fax reserves the right to terminate or suspend your access to our services at our discretion if you violate these terms and conditions.</p>
           </div>
           <div class="step_box">
             <h2>10. Amendments</h2>
@@ -70,7 +70,7 @@
           </div>
           <div class="step_box">
             <h2>11. Contact Information</h2>
-            <p>If you have any questions or concerns regarding these terms or our services, please contact us at <a href="https://www.photoeditscenter.com" style="color: #291c97; font-weight: bold">photoeditscenter.com</a>.</p>
+            <p>If you have any questions or concerns regarding these terms or our services, please contact us at <a href="https://www.pixfax.com" style="color: #291c97; font-weight: bold">pixfax.com</a>.</p>
           </div>
           <div class="step_box">
             <h2>12. Extra Facilities</h2>
@@ -90,7 +90,7 @@
           </div>
           <div class="step_box">
             <h2>13. Governing Law</h2>
-            <p>By using Photo Edits Center's services, you acknowledge that you have read, understood, and agreed to these terms and conditions. If you have any questions or concerns, please contact us before using our services.</p>
+            <p>By using Pix Fax's services, you acknowledge that you have read, understood, and agreed to these terms and conditions. If you have any questions or concerns, please contact us before using our services.</p>
 
             <p>We make every effort to ensure the quality of our edits. If you are not satisfied with the results, please contact us within [specified timeframe] to discuss possible revisions. Additional charges may apply for extensive revisions.</p>
           </div>
@@ -101,7 +101,7 @@
 </template>
 <script setup>
 const title = ref('Photo Edits  Center | How it Works');
-const description = ref('Photo Edits Center provided clipping path related services');
+const description = ref(' Pix Fax provided clipping path related services');
 </script>
 <style scoped>
 .step_box ul {

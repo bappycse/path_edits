@@ -24,14 +24,14 @@
                     <img src="~/assets/images/home.png" width="80px" alt="">
                     <p><b>USA Office:</b></p>
                     <p class="label-contact"> Address:139-25 88 Road Jamaica, NY 11435</p>
-                    <p class="label-contact">Email: info@photoeditscenter.com</p>
+                    <p class="label-contact">Email: info@pixfax.com</p>
                     <p class="label-contact">Phone: <a href="">+1 (347) 612‑6179</a></p>
                   </div>
                   <div class="contact-box text-center">
                     <img src="~/assets/images/home.png" width="80px" alt="">
                     <p class="label-contact">Bangladesh Office</p>
                     <p class="label-contact">Address: Dhaka Cantonment</p>
-                    <p class="label-contact">Email: info@photoeditscenter.com</p>
+                    <p class="label-contact">Email: info@pixfax.com</p>
                     <p class="label-contact">Phone: 880 1303355740</p>
                   </div>
                 </div>
@@ -159,7 +159,7 @@
 const axios = useNuxtApp().$axios
 const { $axios } = useNuxtApp();
 const title = ref('Photo Edits  Center | Free Trial');
-const description = ref('Photo Edits Center provided clipping path related services');
+const description = ref(' Pix Fax provided clipping path related services');
 const allInfo = ref({
   name: null,
   email: null,
@@ -483,7 +483,7 @@ function freeTrial() {
   fd.append('note', allInfo.value.note);
   fd.append('serviceName', allInfo.value.serviceName);
   fd.append('serviceType', allInfo.value.serviceType);
-  $axios.post('https://api.photoeditscenter.com/api/free-trial', fd)
+  $axios.post('https://api.pixfax.com/api/free-trial', fd)
       .then((response) => {
         if(response.status == 200){
           sendStatus.value = false;

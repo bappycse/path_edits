@@ -113,7 +113,7 @@ function menuChanged(event) {
 
 }
 useSeoMeta({
-  title: 'Photo Edits Center',
+  title: ' Pix Fax',
   description: '',
 })
 </script>

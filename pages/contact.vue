@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 box-left">
-          <h1>Keep in touch with <br> Photo Edits Center</h1>
+          <h1>Keep in touch with <br> Pix Fax</h1>
           <h3 class="contact-quote">“Quality is never an accident. It is always the result of an intelligent effort.”</h3>
           <p class="heading-desc">Our friendly team of experts are ready to talk! ,<br>
             You can expect to hear from us within 24 hours, but we will get back to you asap.</p>
@@ -25,7 +25,7 @@
           <div class="mb-50">
             <h3 class="contact-heading">Contact us</h3>
             <h4 class="email">Email us</h4>
-            <p>Support and general inquiry: <br><b><a href="mailto:info@photoeditscenter.com">info@photoeditscenter.com</a></b></p>
+            <p>Support and general inquiry: <br><b><a href="mailto:info@pixfax.com">info@pixfax.com</a></b></p>
           </div>
 
           <h4 class="email">Call Us</h4>
@@ -64,7 +64,7 @@
             <img src="~/assets/images/home.png" width="80px" alt="">
             <p class="label-contact"> USA Office</p>
             <p class="label-contact"> Address:139-25 88 Road Jamaica, NY 11435</p>
-            <p class="label-contact">Email: info@photoeditscenter.com</p>
+            <p class="label-contact">Email: info@pixfax.com</p>
             <p class="label-contact">Phone: <a href="">+1 (347) 612‑6179</a></p>
           </div>
         </div>
@@ -73,7 +73,7 @@
             <img src="~/assets/images/home.png" width="80px" alt="">
             <p class="label-contact">Bangladesh Office</p>
             <p class="label-contact">Address: Dhaka Cantonment</p>
-            <p class="label-contact">Email: info@photoeditscenter.com</p>
+            <p class="label-contact">Email: info@pixfax.com</p>
             <p class="label-contact">Phone: 880 1303355740</p>
           </div>
         </div>

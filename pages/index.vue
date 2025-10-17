@@ -48,7 +48,7 @@
         <div class="col-md-12">
           <div class="titlepage service_area_constent">
             <h2>Services We Provide</h2>
-            <p>Photo Edits Center – An outsourcing company providing all kinds of image editing services including background removal, image masking, ghost mannequin effect, shadow creation, color correction, and eCommerce Product photo editing service.
+            <p> Pix Fax – An outsourcing company providing all kinds of image editing services including background removal, image masking, ghost mannequin effect, shadow creation, color correction, and eCommerce Product photo editing service.
             </p>
           </div>
         </div>
@@ -115,7 +115,7 @@
             </div>
             <div class="text">
               <h3>Shadow Creation Services</h3>
-              <p>Take advantage of the Shadow Creation service from Photo Edits Center, and give your images the extra dimension they need to stand out!</p>
+              <p>Take advantage of the Shadow Creation service from Pix Fax, and give your images the extra dimension they need to stand out!</p>
               <a href="/services/shadow-creation" class="btn btn-primary">Read More</a>
             </div>
           </div>
@@ -247,14 +247,14 @@
           <div id="box_ho" class="why-box">
             <img src="~/assets/images/home_why1.png" alt="">
             <h3>Cost-Effective</h3>
-            <p>Photo Edits Center offers cost-effective image editing services that can help businesses save money on their production costs. </p>
+            <p> Pix Fax offers cost-effective image editing services that can help businesses save money on their production costs. </p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
           <div class="why-box">
             <img src="~/assets/images/home_why2.png" alt="">
             <h3>Superb Quality</h3>
-            <p>Photo Edits Center's experienced team of editors and designers can provide high-quality image editing services that meet the highest industry standards. </p>
+            <p> Pix Fax's experienced team of editors and designers can provide high-quality image editing services that meet the highest industry standards. </p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
@@ -283,7 +283,7 @@
 </template>
 <script setup>
   const title = ref('Photo Edits  Center');
-  const description = ref('Photo Edits Center provided clipping path related services');
+  const description = ref(' Pix Fax provided clipping path related services');
 </script>
 
 <style scoped>

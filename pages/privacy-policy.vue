@@ -8,7 +8,7 @@
       <div class="row text-center">
         <div class="col-md-12">
           <div class="">
-            <h1>Photo Edits Center FAQ</h1>
+            <h1> Pix Fax FAQ</h1>
             <p>The privacy policy is made to make sure that the information you share with us is protected. We have included the policies and the ways of our work and communication to make you understand our company’s policy and privacy. </p>
           </div>
         </div>
@@ -21,11 +21,11 @@
         <div class="col-md-12">
           <div class="step_box">
             <h2>Introduction</h2>
-            <p> This section introduces Photo Edits Center and its commitment to respecting and protecting user privacy and personal data. Users are encouraged to read the Privacy Policy carefully and are informed that if they disagree with its terms, they should refrain from accessing the website.</p>
+            <p> This section introduces Pix Fax and its commitment to respecting and protecting user privacy and personal data. Users are encouraged to read the Privacy Policy carefully and are informed that if they disagree with its terms, they should refrain from accessing the website.</p>
           </div>
           <div class="step_box">
             <h2>Information Sharing</h2>
-            <p>Photo Edits Center assures users that it does not sell, trade, or transfer their personal information to external parties. However, the company may share information with trusted third-party service providers who assist in delivering services, with the condition that they use the information solely for those specific tasks.</p>
+            <p> Pix Fax assures users that it does not sell, trade, or transfer their personal information to external parties. However, the company may share information with trusted third-party service providers who assist in delivering services, with the condition that they use the information solely for those specific tasks.</p>
           </div>
           <div class="step_box">
             <h2>Data Retention</h2>
@@ -37,7 +37,7 @@
           </div>
           <div class="step_box">
             <h2>Links to Other Websites</h2>
-            <p>Users are informed that Photo Edits Center's website may contain links to other websites, and the company is not responsible for the privacy practices of those external sites. Users are encouraged to review the privacy policies of any websites that collect their personal information.</p>
+            <p>Users are informed that Pix Fax's website may contain links to other websites, and the company is not responsible for the privacy practices of those external sites. Users are encouraged to review the privacy policies of any websites that collect their personal information.</p>
           </div>
           <div class="step_box">
             <h2> Changes to Our Privacy Policy</h2>
@@ -45,10 +45,10 @@
           </div>
           <div class="step_box">
             <h2>Contact Us</h2>
-            <p>Users are provided with contact information (info@photoeditscenter.com) to address any questions or concerns regarding the Privacy Policy.</p>
+            <p>Users are provided with contact information (info@pixfax.com) to address any questions or concerns regarding the Privacy Policy.</p>
 
-            <p>This Privacy Policy is an essential document for informing users about how their personal information is handled when interacting with Photo Edits Center's website. It helps build trust and transparency between the company and its users while ensuring compliance with privacy regulations. Users should have the option to agree to these terms before using the website's
-              <a href="https://www.photoeditscenter.com" style="color: #291c97; font-weight: bold" target="_blank">photoeditscenter.com</a></p>
+            <p>This Privacy Policy is an essential document for informing users about how their personal information is handled when interacting with Pix Fax's website. It helps build trust and transparency between the company and its users while ensuring compliance with privacy regulations. Users should have the option to agree to these terms before using the website's
+              <a href="https://www.pixfax.com" style="color: #291c97; font-weight: bold" target="_blank">pixfax.com</a></p>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
 </template>
 <script setup>
 const title = ref('Photo Edits  Center | How it Works');
-const description = ref('Photo Edits Center provided clipping path related services');
+const description = ref(' Pix Fax provided clipping path related services');
 </script>
 <style scoped>
 .step_box ul {

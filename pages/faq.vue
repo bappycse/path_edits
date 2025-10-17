@@ -8,8 +8,8 @@
       <div class="row text-center">
         <div class="col-md-12">
           <div class="">
-            <h1>Photo Edits Center FAQ</h1>
-            <p>Find answers to all your frequently asked questions (FAQs) about Photo Edits Center below. You’ll find all information about our services, pricing, how it works, payments systems, etc.</p>
+            <h1> Pix Fax FAQ</h1>
+            <p>Find answers to all your frequently asked questions (FAQs) about Pix Fax below. You’ll find all information about our services, pricing, how it works, payments systems, etc.</p>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
           </div>
           <div class="step_box">
             <h2>10. Who Are You?</h2>
-            <p>Photo Edits Center, is a USA based Image Photo manipulation service provider. With an experience of 15 years, it has become one of the leading photo editing company. With a great team of expert graphic designers and well-equipped self-owned production house, we provide world class quality image manipulation services which include image cut out, image masking, photo manipulation, glamour retouching, image restoration, pre-press work, advertisement, magazine design, etc.</p>
+            <p> Pix Fax, is a USA based Image Photo manipulation service provider. With an experience of 15 years, it has become one of the leading photo editing company. With a great team of expert graphic designers and well-equipped self-owned production house, we provide world class quality image manipulation services which include image cut out, image masking, photo manipulation, glamour retouching, image restoration, pre-press work, advertisement, magazine design, etc.</p>
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@
 </template>
 <script setup>
 const title = ref('Photo Edits  Center | How it Works');
-const description = ref('Photo Edits Center provided clipping path related services');
+const description = ref(' Pix Fax provided clipping path related services');
 </script>
 <style scoped>
 .step_box ul {
